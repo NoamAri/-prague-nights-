@@ -66,6 +66,7 @@ h2{font-family:var(--display);font-weight:800;font-size:22px;line-height:1.1;mar
 .lineup span{color:var(--muted)}
 .price{display:flex;gap:8px;align-items:baseline;font-weight:600;color:var(--amber);font-size:14.5px}
 .price b{font-weight:600}
+.price.none b{color:var(--muted);font-weight:500;font-size:13.5px}
 .ils{margin-top:-4px;font-size:14px;font-weight:600;color:var(--fg);padding-left:64px}
 .price span{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500}
 .desc{margin:0;color:#d6cce2}
@@ -207,24 +208,24 @@ const EVENTS = [
    link:"https://goout.net/en/acid-arab/szxaymy/"},
   {id:"swimming", artists:["Swimming Paul"], vids:[{id:"bjKctQ_EweY",label:"Swimming Paul – Your Song"}],
    day:10, time:"23:00", title:"Swimming Paul", genre:"House", score:4.3, interested:37,
-   price:"See ticket page", venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1",
+   price:"Not listed publicly · shown at checkout", venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1",
    lineup:"Swimming Paul",
    desc:"Bouncy, euphoric house. Easy crowd-pleaser in a central club, perfect if you want a fun, dance-all-night Saturday.",
    link:"https://goout.net/en/tickets/swimming-paul/rlinb/"},
   {id:"samurai", artists:["Samurai Breaks"], vids:[{id:"4KnrY2kwCG4",label:"Samurai Breaks – Run"}],
    day:10, time:"22:00", title:"mʊdʌki invites Samurai Breaks", genre:"Bass", score:4.2, interested:38,
-   price:"Cheaper presale (limited) · higher at door", venue:"Fuchs2", area:"Štvanice island", addr:"Fuchs2, Štvanice, Praha 7",
+   price:"Not listed publicly · cheaper limited presale, more at door", venue:"Fuchs2", area:"Štvanice island", addr:"Fuchs2, Štvanice, Praha 7",
    lineup:"Samurai Breaks (UK), DJ Base (DE), MC Baddabap, mʊdʌki residents, Alyaz, Blofeld, Herss, Kazpa, Sofiqa",
    desc:"Breaks, jungle and bass on an island in the middle of the Vltava. Fuchs2 is a former 80s disco turned alternative club, and the setting alone is worth the trip.",
-   link:"https://www.fuchs2.cz/events/m-d-ki-invites-samurai-breaks"}
+   link:"https://ra.co/events/2507042"}
 ];
 
 const EXTRA = [
   {id:"camelphat", artists:["CamelPhat"], vids:[{id:"LcNXG-6SqWA",label:"CamelPhat & Elderbrook – Cola (official video)"}],
    day:16, time:"23:00", title:"CamelPhat", genre:"House", score:4.7, interested:36,
-   price:"See ticket page", venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1", lineup:"CamelPhat",
+   price:"Not listed publicly · shown at checkout", venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1", lineup:"CamelPhat",
    desc:"Grammy-nominated melodic house duo. The biggest club booking in Prague all month.",
-   link:"https://roxy.cz/en/events/detail/5090/camelphat"},
+   link:"https://goout.net/en/tickets/camelphat-uk/bcwmb/"},
   {id:"crossfest", artists:["Zamilska","Takaaki Itoh","Strachkvas"], vids:[{id:"xmeVjQdBICk",label:"Zamilska – Change Them"}],
    day:16, time:"20:00", title:"Cross Festival", genre:"Techno", score:4.1, interested:null,
    price:"230 CZK", venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
@@ -350,7 +351,7 @@ function card(ev){
       <h2>${ev.title}</h2>
       <div class="venue"><strong>${ev.venue}</strong> · ${ev.addr}</div>
       <div class="lineup"><span>Lineup:</span> ${ev.lineup}</div>
-      <div class="price"><span>Tickets</span> <b>${ev.price}</b></div>${toILS(ev.price) ? `<div class="ils">≈ ${toILS(ev.price)}</div>` : ""}
+      <div class="price${/\d/.test(ev.price) ? "" : " none"}"><span>Tickets</span> <b>${ev.price}</b></div>${toILS(ev.price) ? `<div class="ils">≈ ${toILS(ev.price)}</div>` : ""}
       <p class="desc">${ev.desc}</p>
       <div class="links">
         <a class="btn primary" href="${ev.link}" target="_blank" rel="noopener">Tickets &amp; event page ↗</a>
