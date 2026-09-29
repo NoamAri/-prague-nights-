@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<meta property="og:title" content="Prague Nights · 8–11 Oct">
+<meta property="og:description" content="Every party in Prague, 8–11 October 2026, with music you can play right on the page.">
+<title>Prague Nights 8–11 Oct</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one-column night guide, sticky control bar, poster-cards with generated art. Deliberately single dark theme (a night-out guide). */
+:root{
+  color-scheme: dark;
+  --ink:#140f1c;        /* page ground: Vltava at night */
+  --panel:#1e1729;      /* card surface */
+  --line:#352a45;
+  --fg:#efe8f6;
+  --muted:#a597b8;
+  --amber:#ffb547;      /* sodium streetlamp accent */
+  --amber-ink:#2a1a00;
+  --display:"Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --body:"Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;padding-top:env(safe-area-inset-top,0px)}
+img{max-width:100%}
+body{background:var(--ink);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:760px;margin:0 auto}
+header{padding-block:28px 14px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(34px,9vw,58px);line-height:.95;margin:.25em 0 .3em;text-wrap:balance;letter-spacing:-.02em}
+h1 span{color:var(--amber)}
+.lede{color:var(--muted);max-width:60ch;margin:0}
+
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--ink) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);margin-inline:-16px;padding:10px 16px;border-bottom:1px solid var(--line);display:grid;gap:8px}
+.row{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.row::-webkit-scrollbar{display:none}
+.lbl{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);align-self:center;flex:none;width:44px}
+.chip{flex:none;font:inherit;font-size:13px;font-weight:600;color:var(--fg);background:transparent;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.chip:focus-visible,a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+
+.daybar{font-family:var(--display);font-weight:800;font-size:22px;margin:28px 0 10px;display:flex;align-items:baseline;gap:10px}
+.daybar small{font-family:var(--mono);font-weight:500;font-size:11px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase}
+.list{display:grid;gap:16px}
+
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid}
+.art{position:relative;aspect-ratio:16/8;max-width:100%}
+.art canvas{width:100%;height:100%;display:block}
+.stamp{position:absolute;left:12px;top:12px;background:var(--ink);color:var(--fg);border-radius:8px;padding:5px 9px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;line-height:1.25;text-align:center}
+.stamp b{display:block;font-family:var(--display);font-size:22px;letter-spacing:0}
+.score{position:absolute;right:12px;top:12px;background:var(--amber);color:var(--amber-ink);border-radius:8px;padding:5px 9px;font-family:var(--mono);font-size:12px;font-weight:500}
+.body{padding:14px 16px 16px;display:grid;gap:8px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.pill{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:3px 8px}
+.pill.g{color:var(--c);border-color:color-mix(in srgb,var(--c) 45%,transparent)}
+h2{font-family:var(--display);font-weight:800;font-size:22px;line-height:1.1;margin:0;text-wrap:balance;overflow-wrap:anywhere}
+.venue{color:var(--muted);font-size:14px}
+.venue strong{color:var(--fg);font-weight:600}
+.lineup{font-size:13.5px;color:var(--fg)}
+.lineup span{color:var(--muted)}
+.price{display:flex;gap:8px;align-items:baseline;font-weight:600;color:var(--amber);font-size:14.5px}
+.price b{font-weight:600}
+.ils{margin-top:-4px;font-size:14px;font-weight:600;color:var(--fg);padding-left:64px}
+.price span{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.desc{margin:0;color:#d6cce2}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.btn{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:14px;text-decoration:none;border-radius:10px;padding:9px 14px;border:1px solid var(--line);color:var(--fg)}
+.btn.primary{background:var(--amber);color:var(--amber-ink);border-color:var(--amber)}
+.interest{font-family:var(--mono);font-size:11px;color:var(--muted)}
+
+.listen{border-top:1px solid var(--line);margin-top:6px;padding-top:12px;display:grid;gap:10px}
+.listen-h{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.play{display:flex;align-items:center;gap:12px;width:100%;font:inherit;text-align:left;cursor:pointer;background:color-mix(in srgb,var(--c) 12%,transparent);border:1px solid color-mix(in srgb,var(--c) 40%,transparent);color:var(--fg);border-radius:12px;padding:10px 12px}
+.play .ico{flex:none;width:36px;height:36px;border-radius:50%;background:var(--c);color:var(--ink);display:grid;place-items:center;font-size:14px}
+.play .t{display:grid;min-width:0;flex:1}
+.play .t b{font-weight:600;font-size:14px}
+.play .t small{color:var(--muted);font-size:12px}
+.play{text-decoration:none}
+.play > svg{width:22px;height:22px;flex:none}
+.eq{display:flex;gap:3px;align-items:flex-end;height:18px;flex:none}
+.eq i{width:3px;background:var(--c);height:4px;border-radius:2px}
+.play.on .eq i{animation:eq .5s ease-in-out infinite alternate}
+.play.on .eq i:nth-child(2){animation-delay:.12s}.play.on .eq i:nth-child(3){animation-delay:.24s}.play.on .eq i:nth-child(4){animation-delay:.36s}
+@keyframes eq{from{height:3px}to{height:18px}}
+.artists{display:flex;flex-wrap:wrap;gap:6px}
+.sp{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-size:13px;font-weight:600;color:var(--fg);border:1px solid var(--line);border-radius:999px;padding:6px 11px}
+.sp svg{width:14px;height:14px;flex:none}
+.sp.yt{color:var(--muted)}
+.spf{width:100%;border:0;border-radius:12px;display:block;background:var(--line)}
+.ytf{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:12px;overflow:hidden;background:#000}
+.ytf iframe{position:absolute;inset:0;width:100%;height:100%}
+.yt-wrap{display:grid;gap:6px}
+.ytp{position:relative;display:block;width:100%;aspect-ratio:16/9;max-width:100%;border:0;padding:0;border-radius:12px;overflow:hidden;cursor:pointer;background:#000}
+.ytp img{width:100%;height:100%;object-fit:cover;display:block;opacity:.85}
+.ytp-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:var(--amber);color:var(--amber-ink);display:grid;place-items:center;font-size:24px;box-shadow:0 6px 24px rgba(0,0,0,.5)}
+.ytp-lbl{position:absolute;left:0;right:0;bottom:0;padding:24px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:#fff;font-weight:600;font-size:14px;text-align:left}
+.yt-out{font-size:12px;color:var(--muted)}
+.empty{color:var(--muted);padding:24px 0}
+.after{margin-top:40px;border-top:1px dashed var(--line);padding-top:8px}
+footer{margin-top:40px;color:var(--muted);font-size:12.5px;display:grid;gap:6px}
+footer a{color:var(--muted)}
+@media (prefers-reduced-motion:no-preference){.card{animation:rise .35s ease both}}
+@keyframes rise{from{transform:translateY(6px)}to{transform:none}}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600;1,700&family=Karla:wght@400;500;600&family=DM+Mono:wght@500&display=swap">
+<style>/* Design D: Art Nouveau */
+:root{color-scheme:dark;--ink:#0e2823;--panel:#15352f;--line:#335c52;--fg:#f4ead3;--muted:#b9c2ab;--amber:#d9a441;--amber-ink:#1b1406;
+--display:"Cormorant Garamond",Georgia,serif;--body:"Karla",system-ui,sans-serif;--mono:"DM Mono",ui-monospace,monospace}
+h1{font-style:italic;font-weight:700;font-size:clamp(52px,14vw,92px);line-height:.9;letter-spacing:-.01em}
+h1 span{color:var(--amber)} h2{font-style:italic;font-weight:700;font-size:30px}
+.card{border:1px solid color-mix(in srgb,var(--amber) 55%,transparent);outline:1px solid color-mix(in srgb,var(--amber) 25%,transparent);outline-offset:4px;border-radius:22px 22px 6px 6px;margin:6px}
+.desc{color:#e5dcc4} .daybar{font-style:italic;font-size:32px}
+.daybar small{font-style:normal}
+.stamp{background:var(--amber);color:var(--amber-ink);border-radius:50% 50% 8px 8px;padding:8px 10px}
+.chip[aria-pressed="true"]{color:var(--amber-ink)} .eyebrow{letter-spacing:.3em}
+header{text-align:center} .lede{margin-inline:auto}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Prague · Fri 9 – Sat 10 Oct 2026</div>
+    <h1>Prague <span>Nights</span></h1>
+    <p class="lede">Every party worth knowing about this weekend, with music you can play right here. Filter by day or genre, sort by date, pick score or genre, and tap through to tickets.</p>
+  </header>
+
+  <div class="controls" role="toolbar" aria-label="Sort and filter">
+    <div class="row"><span class="lbl">Sort</span><span id="sortRow" style="display:flex;gap:6px"></span></div>
+    <div class="row"><span class="lbl">Day</span><span id="dayRow" style="display:flex;gap:6px"></span></div>
+    <div class="row"><span class="lbl">Genre</span><span id="genreRow" style="display:flex;gap:6px"></span></div>
+  </div>
+
+  <main id="out"></main>
+
+  <section class="after">
+    <div class="daybar">Worth extending for <small>Following weekend</small></div>
+    <div class="list" id="extra"></div>
+  </section>
+
+  <footer>
+    <div>Pick score is our 1–5 rating based on lineup, venue and draw. "Interested" is the RA count at time of writing. Prices are from the official ticket pages as of 29 Sep and can rise closer to the date. Shekel amounts use 1 CZK ≈ ₪0.14.</div>
+    <div>Lineups change. Check the event page a few days before. Poster art is generated per genre. Tap a video to play the artist right here.</div>
+    <div>Sources: official event pages on <a href="https://goout.net/en/prague/parties/leznyvlkkzj/" target="_blank" rel="noopener">GoOut</a>, <a href="https://www.crossclub.cz/cs/program/" target="_blank" rel="noopener">Cross Club</a>, <a href="https://anka.li/upcoming-events/" target="_blank" rel="noopener">Ankali</a>, <a href="https://www.fuchs2.cz/shows" target="_blank" rel="noopener">Fuchs2</a>, <a href="https://www.epicprague.com/en/" target="_blank" rel="noopener">EPIC</a> and <a href="https://ra.co/clubs/3429" target="_blank" rel="noopener">RA</a>.</div>
+  </footer>
+</div>
+
+<script>
+const GENRES = {
+  "Melodic":   {c:"#8fd3ff", art:"rings"},
+  "House":     {c:"#ffb547", art:"dots"},
+  "Trance":    {c:"#ff7ad9", art:"rays"},
+  "Bass":      {c:"#7dffb2", art:"wave"},
+  "Drum & Bass": {c:"#c69bff", art:"spiral"},
+  "Techno":    {c:"#ff6b6b", art:"grid"},
+  "Live / Rock":{c:"#ffd36b", art:"jag"},
+  "Festival":  {c:"#6be4ff", art:"confetti"}
+};
+const map = q => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
+
+const EVENTS = [
+  {id:"loffler", artists:["Christian Löffler"], vids:[{id:"kx62ouCEh_g",label:"Christian Löffler – Mt. Grace"}],
+   day:9, time:"21:30", title:"Christian Löffler", genre:"Melodic", score:4.3, interested:24,
+   price:"590–650 CZK", venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1",
+   lineup:"Christian Löffler",
+   desc:"Emotional, slow-burning electronica from the German producer, in Prague's most famous club. A classy Friday that builds into proper dancing.",
+   link:"https://goout.net/en/christian-loffler/szknqly/"},
+  {id:"wubwub", artists:["DDAT","basic chanel","Jan Loup","Westdale"],
+   day:9, time:"23:00", title:"#wubwub × Markham Road Records", genre:"Bass", score:4.0, interested:12,
+   price:"250–400 CZK presale · 300–400 CZK door", venue:"Ankali", area:"Prague 10", addr:"Lopuchová 58/6, Praha 10",
+   lineup:"DDAT 23:00 · basic chanel 01:00 · Jan Loup 02:30 · Westdale 04:00–06:00",
+   desc:"UK bass and dubstep takeover in a converted soap factory. Ankali has one of the best sound systems in the city and a loyal underground crowd. Cheaper at the door before midnight.",
+   link:"https://ra.co/events/2530880"},
+  {id:"spirit", artists:["Blocksberg","Memphys","Whitetrip","Soulkate"], vids:[{id:"2jObIwaCFlI",label:"Blocksberg & Memphys live set"}],
+   day:9, time:"21:00", title:"Spirit Therapy: Blocksberg & Memphys", genre:"Drum & Bass", score:3.9, interested:null,
+   price:"200 CZK · same ticket as Deathchant", venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
+   lineup:"Main: Blocksberg & Memphys, Fatal DNA, Hydrox, Neurovortex + more · Basement: Whitetrip, Soulkate, Mefficek + more",
+   desc:"Two floors of bass in the steampunk maze of Cross Club. Drum & bass upstairs, UK garage to dubstep in the basement. Cheap ticket, runs until 7am.",
+   link:"https://goout.net/en/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/szmvamy/"},
+  {id:"deathchant", artists:["Deathchant"], vids:[{id:"Nngcqn43ZbU",label:"Deathchant – Chariot (official video)"}],
+   day:9, time:"18:00", title:"Cross Square with Deathchant", genre:"Live / Rock", score:3.5, interested:null,
+   price:"200 CZK · same ticket as Spirit Therapy", venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
+   lineup:"Deathchant (USA), Voodoo Garden + guests",
+   desc:"Heavy, fuzzed-out rock from Los Angeles live on the Cross Club stage. Same ticket gets you into Spirit Therapy afterwards.",
+   link:"https://goout.net/en/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/szmvamy/"},
+  {id:"picotto", artists:["Mauro Picotto","Eddie Halliwell"],
+   vids:[{id:"K66qDeE_wB4",label:"Mauro Picotto – Komodo (official video)"},{id:"2uGT51iDYn4",label:"Eddie Halliwell – Bullet In The Gun (edit)"}],
+   day:10, time:"22:00", title:"Mauro Picotto × Eddie Halliwell", genre:"Trance", score:4.6, interested:null,
+   price:"490 CZK presale · 600 CZK door (VIP 980/1200)", venue:"EPIC Prague", area:"Holešovice", addr:"EPIC Prague, Holešovice, Praha 7",
+   lineup:"Mauro Picotto, Eddie Halliwell · EN-TRANCE",
+   desc:"Two trance legends on one bill. Picotto's 'Komodo' era meets Halliwell's high-energy sets. The biggest name draw of the weekend.",
+   link:"https://www.epicprague.com/en/program/2172/mauro-picotto-x-eddie-halliwell-en-trance"},
+  {id:"acidarab", artists:["Acid Arab"], vids:[{id:"mpls1Mp4RFE",label:"Acid Arab – Leila (official video)"}],
+   day:10, time:"21:00", title:"Acid Arab", genre:"Techno", score:4.4, interested:null,
+   price:"500–700 CZK", venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
+   lineup:"Acid Arab, Ghandi, Romario & Snowlion, Cejn, True Detective",
+   desc:"The Paris collective mixes techno and acid house with Middle Eastern and North African music. Hypnotic and very danceable, running until 7am.",
+   link:"https://goout.net/en/acid-arab/szxaymy/"},
+  {id:"swimming", artists:["Swimming Paul"], vids:[{id:"bjKctQ_EweY",label:"Swimming Paul – Your Song"}],
+   day:10, time:"23:00", title:"Swimming Paul", genre:"House", score:4.3, interested:37,
+   price:"See ticket page", venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1",
+   lineup:"Swimming Paul",
+   desc:"Bouncy, euphoric house. Easy crowd-pleaser in a central club, perfect if you want a fun, dance-all-night Saturday.",
+   link:"https://goout.net/en/tickets/swimming-paul/rlinb/"},
+  {id:"samurai", artists:["Samurai Breaks"], vids:[{id:"4KnrY2kwCG4",label:"Samurai Breaks – Run"}],
+   day:10, time:"22:00", title:"mʊdʌki invites Samurai Breaks", genre:"Bass", score:4.2, interested:38,
+   price:"Cheaper presale (limited) · higher at door", venue:"Fuchs2", area:"Štvanice island", addr:"Fuchs2, Štvanice, Praha 7",
+   lineup:"Samurai Breaks (UK), DJ Base (DE), MC Baddabap, mʊdʌki residents, Alyaz, Blofeld, Herss, Kazpa, Sofiqa",
+   desc:"Breaks, jungle and bass on an island in the middle of the Vltava. Fuchs2 is a former 80s disco turned alternative club, and the setting alone is worth the trip.",
+   link:"https://www.fuchs2.cz/events/m-d-ki-invites-samurai-breaks"}
+];
+
+const EXTRA = [
+  {id:"camelphat", artists:["CamelPhat"], vids:[{id:"LcNXG-6SqWA",label:"CamelPhat & Elderbrook – Cola (official video)"}],
+   day:16, time:"23:00", title:"CamelPhat", genre:"House", score:4.7, interested:36,
+   price:"See ticket page", venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1", lineup:"CamelPhat",
+   desc:"Grammy-nominated melodic house duo. The biggest club booking in Prague all month.",
+   link:"https://roxy.cz/en/events/detail/5090/camelphat"},
+  {id:"crossfest", artists:["Zamilska","Takaaki Itoh","Strachkvas"], vids:[{id:"xmeVjQdBICk",label:"Zamilska – Change Them"}],
+   day:16, time:"20:00", title:"Cross Festival", genre:"Techno", score:4.1, interested:null,
+   price:"230 CZK", venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
+   lineup:"Zamilska, Takaaki Itoh, Strachkvas, Nocturnal Thing, Yuliya, Nova Regina · plus a drum & bass stage",
+   desc:"Cross Club's own festival night. Zamilska and Takaaki Itoh make this a serious techno lineup, with a second stage of drum & bass.",
+   link:"https://goout.net/en/zamilska-w-strachkvas-ida-elastic/szflxly/"}
+];
+
+const CZK_ILS = 0.1425; // Wise mid-market rate, 29 Sep 2026
+const toILS = p => /\d/.test(p) ? p.replace(/ ?CZK/g, "").replace(/\d+/g, n => "₪" + Math.round(n * CZK_ILS)) : "";
+const DAYNAME = {8:"Thu",9:"Fri",10:"Sat",11:"Sun",12:"Mon",16:"Fri"};
+let state = {sort:"date", day:"all", genre:"all"};
+try{ const s = JSON.parse(localStorage.getItem("pn-state")||"null"); if(s) state = {...state,...s}; }catch(e){}
+const save = () => { try{ localStorage.setItem("pn-state", JSON.stringify(state)); }catch(e){} };
+
+function chip(label, active, onClick){
+  const b = document.createElement("button");
+  b.className="chip"; b.type="button"; b.textContent=label;
+  b.setAttribute("aria-pressed", active ? "true":"false");
+  b.onclick = onClick; return b;
+}
+function renderControls(){
+  const s = document.getElementById("sortRow"); s.replaceChildren();
+  [["date","Date"],["score","Pick score"],["genre","Genre"]].forEach(([k,l]) =>
+    s.append(chip(l, state.sort===k, ()=>{state.sort=k; update();})));
+  const d = document.getElementById("dayRow"); d.replaceChildren();
+  [["all","All"],[9,"Fri 9"],[10,"Sat 10"]].forEach(([k,l]) =>
+    d.append(chip(l, String(state.day)===String(k), ()=>{state.day=k; update();})));
+  const g = document.getElementById("genreRow"); g.replaceChildren();
+  const used = [...new Set(EVENTS.map(e=>e.genre))];
+  g.append(chip("All", state.genre==="all", ()=>{state.genre="all"; update();}));
+  used.forEach(k => g.append(chip(k, state.genre===k, ()=>{state.genre=k; update();})));
+}
+
+/* ---------- generated poster art ---------- */
+function rng(seed){ let h=0; for(const c of seed) h=(h*31+c.charCodeAt(0))|0; return ()=>{ h^=h<<13; h^=h>>17; h^=h<<5; return ((h>>>0)%10000)/10000; }; }
+function paint(cv, ev){
+  const g = GENRES[ev.genre], r = rng(ev.id);
+  const dpr = Math.min(window.devicePixelRatio||1, 2);
+  const W = cv.clientWidth||600, H = cv.clientHeight||300;
+  cv.width = W*dpr; cv.height = H*dpr;
+  const x = cv.getContext("2d"); x.scale(dpr,dpr);
+  const bg = x.createLinearGradient(0,0,W,H);
+  bg.addColorStop(0,"#1a1224"); bg.addColorStop(1,"#0d0a14");
+  x.fillStyle = bg; x.fillRect(0,0,W,H);
+  const glow = x.createRadialGradient(W*(.55+r()*.3),H*(.3+r()*.4),0,W*.7,H*.5,W*.7);
+  glow.addColorStop(0, g.c+"66"); glow.addColorStop(1,"#00000000");
+  x.fillStyle = glow; x.fillRect(0,0,W,H);
+  x.strokeStyle = g.c; x.fillStyle = g.c; x.lineWidth = 1.5;
+  const cx = W*(.55+r()*.3), cy = H*(.45+r()*.2);
+  switch(g.art){
+    case "rings": for(let i=1;i<14;i++){ x.globalAlpha = 1-i/14; x.beginPath(); x.arc(cx,cy,i*16+r()*6,0,Math.PI*2); x.stroke(); } break;
+    case "dots": for(let i=0;i<22;i++) for(let j=0;j<10;j++){ const d=Math.hypot(i*30-cx,j*30-cy); x.globalAlpha=Math.max(.08,1-d/320); x.beginPath(); x.arc(i*30+15,j*30+15,Math.max(1,9-d/40),0,Math.PI*2); x.fill(); } break;
+    case "rays": for(let i=0;i<48;i++){ const a=i/48*Math.PI*2; x.globalAlpha=.25+r()*.6; x.beginPath(); x.moveTo(cx,cy); x.lineTo(cx+Math.cos(a)*W,cy+Math.sin(a)*W); x.stroke(); } break;
+    case "wave": for(let k=0;k<7;k++){ x.globalAlpha=1-k/8; x.beginPath(); const amp=18+k*9, f=.02+r()*.02, ph=r()*6, y0=H*.5+(k-3)*10; for(let i=0;i<=W;i+=4){ x.lineTo(i, y0+Math.sin(i*f+ph)*amp*Math.sin(i/W*Math.PI)); } x.stroke(); } break;
+    case "spiral": x.beginPath(); for(let t=0;t<40;t+=.05){ const rr=t*5; x.lineTo(cx+Math.cos(t)*rr, cy+Math.sin(t)*rr*.7); } x.globalAlpha=.8; x.stroke(); break;
+    case "grid": x.globalAlpha=.5; for(let i=0;i<=24;i++){ x.beginPath(); x.moveTo(W/2+(i-12)*8,H*.35); x.lineTo(W/2+(i-12)*70,H); x.stroke(); } for(let j=0;j<10;j++){ const y=H*.35+Math.pow(j/10,2)*H*.65; x.globalAlpha=.2+j/14; x.beginPath(); x.moveTo(0,y); x.lineTo(W,y); x.stroke(); } break;
+    case "jag": for(let k=0;k<5;k++){ x.globalAlpha=1-k/6; x.beginPath(); let y=H*.6+k*12; x.moveTo(0,y); for(let i=0;i<=W;i+=18){ x.lineTo(i, y-(r()*60+10)*(k%2?1:.6)); x.lineTo(i+9, y); } x.stroke(); } break;
+    case "confetti": for(let i=0;i<90;i++){ x.globalAlpha=.3+r()*.7; x.save(); x.translate(r()*W,r()*H); x.rotate(r()*3); x.fillRect(-6,-2,12,4); x.restore(); } break;
+  }
+  x.globalAlpha=1;
+}
+
+const SPOT = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1ed760"/><path d="M6.5 9.3c3.6-1.1 7.7-.8 11 1.1M7.2 12.4c3-.9 6.3-.6 9 1M7.8 15.3c2.4-.6 4.8-.4 6.9.8" stroke="#10131a" stroke-width="1.7" fill="none" stroke-linecap="round"/></svg>';
+
+/* ---------- cards ---------- */
+const SP_ARTIST = {
+  "Christian Löffler":"3tSvlEzeDnVbQJBTkIA6nO","Swimming Paul":"5rEwPEAHq2q1yW3wF4av5s",
+  "Mauro Picotto":"0MNSDAOCHF7f2ZfAYxZ9bp","Eddie Halliwell":"45A7XBuUTqH1KBFh3cZ4ZJ",
+  "Samurai Breaks":"5X8xxAPGx1ouTGDlgE5ray","CamelPhat":"240wlM8vDrf6S4zCyzGj2W",
+  "Deathchant":"540GgzaR1X4qzfRbITNlcM","Zamilska":"5spFDEIIv5V1yEHxIBStKH",
+  "Blocksberg":"1Dxz2fxZ3fzJiPlo6tQN6U","Memphys":"7AalWAOWz4NUwYiRlPyMoT","Strachkvas":"0SdyV2I7NhlsFX5VgHqwrK","Takaaki Itoh":"2cE64RtSkS5CE0075eMMCt"
+};
+const YTI = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="4" width="22" height="16" rx="5" fill="#ff3d3d"/><path d="M10 8.5v7l6-3.5z" fill="#fff"/></svg>';
+const yt = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
+const spEmbed = (kind,id) => `<iframe class="spf" src="https://open.spotify.com/embed/${kind}/${id}?utm_source=generator&theme=0" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify player"></iframe>`;
+function players(ev){
+  if(ev.vids && ev.vids.length) return ev.vids.map(v => `
+    <div class="yt-wrap">
+      <button class="ytp" type="button" data-vid="${v.id}" aria-label="Play ${v.label}">
+        <img src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()">
+        <span class="ytp-btn">▶</span>
+        <span class="ytp-lbl">${v.label}</span>
+      </button>
+      <a class="yt-out" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">Doesn't play? Open on YouTube ↗</a>
+    </div>`).join("");
+  const lead = ev.artists[0] || ev.fallback || ev.title;
+  return `<a class="play" href="${yt(lead + (ev.artists.length ? " live set" : " music"))}" target="_blank" rel="noopener"><span class="ico">▶</span><span class="t"><b>${ev.artists.length ? lead + " live sets" : "Listen: " + lead}</b><small>Opens YouTube</small></span>${YTI}</a>`;
+}
+/* Spotify: open the app directly; if it isn't installed, fall back to the website */
+document.addEventListener("click", e => {
+  const a = e.target.closest(".spapp"); if(!a) return;
+  e.preventDefault();
+  let left = false; const mark = () => { left = true; };
+  document.addEventListener("visibilitychange", mark, {once:true});
+  window.addEventListener("pagehide", mark, {once:true});
+  window.addEventListener("blur", mark, {once:true});
+  location.href = a.getAttribute("href");
+  setTimeout(() => { if(!left && !document.hidden) window.open(a.dataset.web, "_blank") || (location.href = a.dataset.web); }, 1500);
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest(".ytp"); if(!b) return;
+  document.querySelectorAll(".ytf iframe").forEach(f => { const p = f.closest(".ytf"); p.replaceWith(p._btn); }); // one video at a time
+  const box = document.createElement("div"); box.className = "ytf"; box._btn = b;
+  box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${b.dataset.vid}?autoplay=1&playsinline=1&rel=0" title="YouTube player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+  b.replaceWith(box);
+});
+function artistChips(ev){
+  return ev.artists.map(a => SP_ARTIST[a]
+    ? `<a class="sp spapp" href="spotify:artist:${SP_ARTIST[a]}" data-web="https://open.spotify.com/artist/${SP_ARTIST[a]}">${SPOT}${a}</a>`
+    : `<a class="sp" href="${yt(a)}" target="_blank" rel="noopener">${YTI}${a}</a>`).join("");
+}
+function card(ev){
+  const g = GENRES[ev.genre];
+  const el = document.createElement("article"); el.className="card"; el.style.setProperty("--c", g.c);
+  el.innerHTML = `
+    <div class="art"><canvas aria-hidden="true"></canvas>
+      <div class="stamp">${DAYNAME[ev.day]}<b>${ev.days||ev.day}</b>Oct</div>
+      <div class="score" title="Pick score">★ ${ev.score.toFixed(1)}</div>
+    </div>
+    <div class="body">
+      <div class="meta"><span class="pill g">${ev.genre}</span><span class="pill">${ev.time}</span><span class="pill">${ev.area}</span></div>
+      <h2>${ev.title}</h2>
+      <div class="venue"><strong>${ev.venue}</strong> · ${ev.addr}</div>
+      <div class="lineup"><span>Lineup:</span> ${ev.lineup}</div>
+      <div class="price"><span>Tickets</span> <b>${ev.price}</b></div>${toILS(ev.price) ? `<div class="ils">≈ ${toILS(ev.price)}</div>` : ""}
+      <p class="desc">${ev.desc}</p>
+      <div class="links">
+        <a class="btn primary" href="${ev.link}" target="_blank" rel="noopener">Tickets &amp; event page ↗</a>
+        <a class="btn" href="${map(ev.addr)}" target="_blank" rel="noopener">Map ↗</a>
+        ${ev.interested ? `<span class="interest" style="align-self:center">${ev.interested} interested on RA</span>` : ""}
+      </div>
+      <div class="listen">
+        <div class="listen-h">Listen</div>
+        ${players(ev)}
+        <div class="artists">
+          ${artistChips(ev)}
+        </div>
+
+      </div>
+    </div>`;
+  requestAnimationFrame(()=>paint(el.querySelector("canvas"), ev));
+  return el;
+}
+
+function update(){
+  save(); renderControls();
+  let list = EVENTS.filter(e => (state.day==="all" || e.day==state.day) && (state.genre==="all" || e.genre===state.genre));
+  const out = document.getElementById("out"); out.replaceChildren();
+  if(!list.length){ out.innerHTML = `<p class="empty">Nothing matches that day and genre. Try "All".</p>`; return; }
+  const byDate = (a,b)=> a.day-b.day || b.score-a.score;
+  if(state.sort==="date"){
+    list.sort(byDate);
+    const days = [...new Set(list.map(e=>e.day))];
+    days.forEach(d=>{
+      const h = document.createElement("div"); h.className="daybar";
+      const n = list.filter(e=>e.day===d).length;
+      h.innerHTML = `${DAYNAME[d]} ${d} Oct <small>${n} event${n>1?"s":""}</small>`;
+      const l = document.createElement("div"); l.className="list";
+      list.filter(e=>e.day===d).forEach(e=>l.append(card(e)));
+      out.append(h,l);
+    });
+  } else if(state.sort==="genre"){
+    list.sort((a,b)=> a.genre.localeCompare(b.genre) || b.score-a.score);
+    [...new Set(list.map(e=>e.genre))].forEach(gn=>{
+      const h = document.createElement("div"); h.className="daybar"; h.style.color = GENRES[gn].c;
+      h.innerHTML = `${gn} <small style="color:var(--muted)">${list.filter(e=>e.genre===gn).length}</small>`;
+      const l = document.createElement("div"); l.className="list";
+      list.filter(e=>e.genre===gn).forEach(e=>l.append(card(e)));
+      out.append(h,l);
+    });
+  } else {
+    list.sort((a,b)=> b.score-a.score || a.day-b.day);
+    const h = document.createElement("div"); h.className="daybar"; h.innerHTML = `Top picks <small>highest pick score first</small>`;
+    const l = document.createElement("div"); l.className="list";
+    list.forEach(e=>l.append(card(e))); out.append(h,l);
+  }
+}
+
+EXTRA.forEach(e=>document.getElementById("extra").append(card(e)));
+update();
+let rt; addEventListener("resize", ()=>{ clearTimeout(rt); rt=setTimeout(()=>{ update(); document.querySelectorAll("#extra canvas").forEach((c,i)=>paint(c,EXTRA[i])); },200); });
+</script>
+
+</body>
+</html>
