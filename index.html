@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#140f1c">
-<meta property="og:title" content="Prague Nights · 8–12 Oct">
-<meta property="og:description" content="Every party in Prague, 8–12 October 2026, with music you can play right on the page.">
-<title>Prague Nights 8–12 Oct</title>
+<meta property="og:title" content="Prague Nights · 8–11 Oct">
+<meta property="og:description" content="Every party in Prague, 8–11 October 2026, with music you can play right on the page.">
+<title>Prague Nights 8–11 Oct</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -90,6 +90,12 @@ h2{font-family:var(--display);font-weight:800;font-size:22px;line-height:1.1;mar
 .spf{width:100%;border:0;border-radius:12px;display:block;background:var(--line)}
 .ytf{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:12px;overflow:hidden;background:#000}
 .ytf iframe{position:absolute;inset:0;width:100%;height:100%}
+.yt-wrap{display:grid;gap:6px}
+.ytp{position:relative;display:block;width:100%;aspect-ratio:16/9;max-width:100%;border:0;padding:0;border-radius:12px;overflow:hidden;cursor:pointer;background:#000}
+.ytp img{width:100%;height:100%;object-fit:cover;display:block;opacity:.85}
+.ytp-btn{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:var(--amber);color:var(--amber-ink);display:grid;place-items:center;font-size:24px;box-shadow:0 6px 24px rgba(0,0,0,.5)}
+.ytp-lbl{position:absolute;left:0;right:0;bottom:0;padding:24px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:#fff;font-weight:600;font-size:14px;text-align:left}
+.yt-out{font-size:12px;color:var(--muted)}
 .empty{color:var(--muted);padding:24px 0}
 .after{margin-top:40px;border-top:1px dashed var(--line);padding-top:8px}
 footer{margin-top:40px;color:var(--muted);font-size:12.5px;display:grid;gap:6px}
@@ -102,9 +108,9 @@ footer a{color:var(--muted)}
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">Prague · Thu 8 – Mon 12 Oct 2026</div>
+    <div class="eyebrow">Prague · Thu 8 – Sun 11 Oct 2026</div>
     <h1>Prague <span>Nights</span></h1>
-    <p class="lede">Every party worth knowing about across four nights. Filter by day or genre, sort by date, pick score or genre, and tap through to tickets.</p>
+    <p class="lede">Every party worth knowing about this weekend, with music you can play right here. Filter by day or genre, sort by date, pick score or genre, and tap through to tickets.</p>
   </header>
 
   <div class="controls" role="toolbar" aria-label="Sort and filter">
@@ -116,13 +122,13 @@ footer a{color:var(--muted)}
   <main id="out"></main>
 
   <section class="after">
-    <div class="daybar">Worth extending for <small>Just after the 12th</small></div>
+    <div class="daybar">Worth extending for <small>Following weekend</small></div>
     <div class="list" id="extra"></div>
   </section>
 
   <footer>
     <div>Pick score is our 1–5 rating based on lineup, venue and draw. "Interested" is the RA count at time of writing.</div>
-    <div>Lineups change. Check the event page a few days before. Poster art is generated per genre. Spotify players play 30-second previews, or full tracks if you are logged in to Spotify in this browser.</div>
+    <div>Lineups change. Check the event page a few days before. Poster art is generated per genre. Tap a video to play the artist right here.</div>
     <div>Sources: <a href="https://ra.co/clubs/3429" target="_blank" rel="noopener">RA Roxy</a> · <a href="https://ra.co/clubs/13354" target="_blank" rel="noopener">RA Cross Club</a> · <a href="https://ra.co/clubs/184597" target="_blank" rel="noopener">RA Ankali</a> · <a href="https://ra.co/clubs/162121" target="_blank" rel="noopener">RA Fuchs2</a> · <a href="https://happeningnext.com/prague/parties" target="_blank" rel="noopener">HappeningNext</a> · <a href="https://www.bandsintown.com/c/prague-czech-republic" target="_blank" rel="noopener">Bandsintown</a> · <a href="https://goout.net/en/prague/parties/leznyvlkkzj/" target="_blank" rel="noopener">GoOut</a></div>
   </footer>
 </div>
@@ -141,7 +147,7 @@ const GENRES = {
 const map = q => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
 
 const EVENTS = [
-  {id:"loffler", track:{name:"Mt. Grace",by:"Christian Löffler",url:"https://open.spotify.com/track/6xZZM6GDxTKsLjF3TNDREL"}, artists:["Christian Löffler"], day:9, time:"23:00", title:"Christian Löffler", genre:"Melodic", score:4.3, interested:24,
+  {id:"loffler", vids:[{id:"kx62ouCEh_g",label:"Mt. Grace"}], track:{name:"Mt. Grace",by:"Christian Löffler",url:"https://open.spotify.com/track/6xZZM6GDxTKsLjF3TNDREL"}, artists:["Christian Löffler"], day:9, time:"23:00", title:"Christian Löffler", genre:"Melodic", score:4.3, interested:24,
    venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1",
    lineup:"Christian Löffler",
    desc:"Emotional, slow-burning electronica from the German producer, in Prague's most famous club. A classy Friday that builds into proper dancing.",
@@ -154,9 +160,9 @@ const EVENTS = [
   {id:"spirit", artists:["Blocksberg","Memphys","Whitetrip","Soulkate"], day:9, time:"22:00", title:"Spirit Therapy", genre:"Drum & Bass", score:3.8, interested:null,
    venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
    lineup:"Blocksberg, Memphys, Whitetrip, Soulkate",
-   desc:"Drum & bass night with the duo Blocksberg & Memphys, in the steampunk maze of Cross Club. Cheap drinks, multiple floors, very Prague.", ytvid:"2jObIwaCFlI",
+   desc:"Drum & bass night with the duo Blocksberg & Memphys, in the steampunk maze of Cross Club. Cheap drinks, multiple floors, very Prague.", vids:[{id:"2jObIwaCFlI",label:"Blocksberg & Memphys live set"}],
    link:"https://ra.co/clubs/13354"},
-  {id:"deathchant", track:{name:"Chariot",by:"Deathchant",url:"https://open.spotify.com/track/67YsrdQGuVVBQCrXZgCetW"}, artists:["Deathchant"], day:9, time:"20:00", title:"Cross Square with Deathchant", genre:"Live / Rock", score:3.5, interested:null,
+  {id:"deathchant", vids:[{id:"Nngcqn43ZbU",label:"Chariot (official video)"}], track:{name:"Chariot",by:"Deathchant",url:"https://open.spotify.com/track/67YsrdQGuVVBQCrXZgCetW"}, artists:["Deathchant"], day:9, time:"20:00", title:"Cross Square with Deathchant", genre:"Live / Rock", score:3.5, interested:null,
    venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
    lineup:"Deathchant (USA)",
    desc:"Heavy, fuzzed-out rock from the US live on the Cross Club stage. Good warm-up before heading downstairs for the club floors.",
@@ -166,17 +172,17 @@ const EVENTS = [
    lineup:"Two-day lineup, details on the listing",
    desc:"Small two-day festival in a Žižkov gallery space. Local, intimate, and in the city's best bar district for after.",
    link:"https://www.bandsintown.com/c/prague-czech-republic"},
-  {id:"picotto", track:{name:"Komodo",by:"Mauro Picotto",url:"https://open.spotify.com/track/4BdFRBZbmdyHC5Lip4qhSe"}, track2:{name:"Bullet In The Gun (Eddie Halliwell edit)",by:"Planet Perfecto, Eddie Halliwell",url:"https://open.spotify.com/track/76ktq2GnV8K6I0cK8co1Px"}, artists:["Mauro Picotto","Eddie Halliwell"], day:10, time:"22:00", title:"Mauro Picotto × Eddie Halliwell", genre:"Trance", score:4.6, interested:null,
+  {id:"picotto", vids:[{id:"K66qDeE_wB4",label:"Mauro Picotto – Komodo (official video)"},{id:"2uGT51iDYn4",label:"Eddie Halliwell – Bullet In The Gun (edit)"}], track:{name:"Komodo",by:"Mauro Picotto",url:"https://open.spotify.com/track/4BdFRBZbmdyHC5Lip4qhSe"}, track2:{name:"Bullet In The Gun (Eddie Halliwell edit)",by:"Planet Perfecto, Eddie Halliwell",url:"https://open.spotify.com/track/76ktq2GnV8K6I0cK8co1Px"}, artists:["Mauro Picotto","Eddie Halliwell"], day:10, time:"22:00", title:"Mauro Picotto × Eddie Halliwell", genre:"Trance", score:4.6, interested:null,
    venue:"EPIC Prague", area:"Holešovice", addr:"EPIC Prague, Holešovice, Praha 7",
    lineup:"Mauro Picotto, Eddie Halliwell · EN-TRANCE",
    desc:"Two trance legends on one bill. Picotto's 'Komodo' and 'Lizard' era meets Halliwell's high-energy sets. The biggest name draw of the weekend.",
    link:"https://happeningnext.com/prague/parties"},
-  {id:"swimming", track:{name:"Your Song",by:"Swimming Paul",url:"https://open.spotify.com/track/63zjmhzDTV4DXxq0iyQsg2"}, artists:["Swimming Paul"], day:10, time:"23:00", title:"Swimming Paul", genre:"House", score:4.3, interested:37,
+  {id:"swimming", vids:[{id:"bjKctQ_EweY",label:"Your Song"}], track:{name:"Your Song",by:"Swimming Paul",url:"https://open.spotify.com/track/63zjmhzDTV4DXxq0iyQsg2"}, artists:["Swimming Paul"], day:10, time:"23:00", title:"Swimming Paul", genre:"House", score:4.3, interested:37,
    venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1",
    lineup:"Swimming Paul",
    desc:"Bouncy, euphoric house from the Berlin-based artist. Easy crowd-pleaser in a central club, perfect if you want a fun, dance-all-night Saturday.",
    link:"https://ra.co/clubs/3429"},
-  {id:"samurai", track:{name:"Casio Crew",by:"Samurai Breaks",url:"https://open.spotify.com/track/64OBL8t3d3XwSnM95oZyGQ"}, artists:["Samurai Breaks"], day:10, time:"23:00", title:"mʊdʌki invites Samurai Breaks", genre:"Bass", score:4.2, interested:38,
+  {id:"samurai", vids:[{id:"4KnrY2kwCG4",label:"Run"}], track:{name:"Casio Crew",by:"Samurai Breaks",url:"https://open.spotify.com/track/64OBL8t3d3XwSnM95oZyGQ"}, artists:["Samurai Breaks"], day:10, time:"23:00", title:"mʊdʌki invites Samurai Breaks", genre:"Bass", score:4.2, interested:38,
    venue:"Fuchs2", area:"Štvanice island", addr:"Fuchs2, Štvanice, Praha 7",
    lineup:"Samurai Breaks + mʊdʌki residents",
    desc:"Breaks and bass on an island in the middle of the Vltava. Fuchs2 is a former 80s disco turned alternative club, and the setting alone is worth the trip.",
@@ -186,19 +192,14 @@ const EVENTS = [
    lineup:"Two-day lineup, details on the listing",
    desc:"Two-day celebration across Ankali's club and its Planeta Za garden space. Good daytime option that rolls into the night.",
    link:"https://www.bandsintown.com/c/prague-czech-republic"},
-  {id:"tekkenos", artists:[],fallback:"tekno", day:12, time:"22:00", title:"Los Tekkenos", genre:"Techno", score:3.3, interested:null,
-   venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7",
-   lineup:"Cross Club residents",
-   desc:"The Monday regular. Hard, fast tekno for anyone who is not done yet. Low entry, loose crowd.",
-   link:"https://ra.co/clubs/13354"}
 ];
 
 const EXTRA = [
-  {id:"camelphat", track:{name:"Cola",by:"CamelPhat, Elderbrook",url:"https://open.spotify.com/track/6TKLi1C4Q82u5nEziCldKW"}, artists:["CamelPhat"], day:16, time:"23:00", title:"CamelPhat", genre:"House", score:4.7, interested:36,
+  {id:"camelphat", vids:[{id:"LcNXG-6SqWA",label:"Cola (official video)"}], track:{name:"Cola",by:"CamelPhat, Elderbrook",url:"https://open.spotify.com/track/6TKLi1C4Q82u5nEziCldKW"}, artists:["CamelPhat"], day:16, time:"23:00", title:"CamelPhat", genre:"House", score:4.7, interested:36,
    venue:"ROXY", area:"Old Town", addr:"Dlouhá 33, Praha 1", lineup:"CamelPhat",
    desc:"Grammy-nominated melodic house duo. The biggest club booking in Prague all month.",
    link:"https://ra.co/clubs/3429"},
-  {id:"crossfest", track:{name:"Alive",by:"Zamilska",url:"https://open.spotify.com/track/78f8CaZ1RSFlEmPDQjjoLI"}, artists:["Zamilska","Takaaki Itoh","Strachkvas"], day:16, time:"20:00", title:"Cross Festival", genre:"Festival", score:4.1, interested:null,
+  {id:"crossfest", vids:[{id:"xmeVjQdBICk",label:"Zamilska – Change Them"}], track:{name:"Alive",by:"Zamilska",url:"https://open.spotify.com/track/78f8CaZ1RSFlEmPDQjjoLI"}, artists:["Zamilska","Takaaki Itoh","Strachkvas"], day:16, time:"20:00", title:"Cross Festival", genre:"Festival", score:4.1, interested:null,
    venue:"Cross Club", area:"Holešovice", addr:"Plynární 1096/23, Praha 7", lineup:"Strachkvas, Zamilska, Takaaki Itoh",
    desc:"Cross Club's own festival night. Zamilska and Takaaki Itoh make this a serious techno lineup.",
    link:"https://ra.co/clubs/13354"}
@@ -220,7 +221,7 @@ function renderControls(){
   [["date","Date"],["score","Pick score"],["genre","Genre"]].forEach(([k,l]) =>
     s.append(chip(l, state.sort===k, ()=>{state.sort=k; update();})));
   const d = document.getElementById("dayRow"); d.replaceChildren();
-  [["all","All"],[9,"Fri 9"],[10,"Sat 10"],[12,"Mon 12"]].forEach(([k,l]) =>
+  [["all","All"],[9,"Fri 9"],[10,"Sat 10"]].forEach(([k,l]) =>
     d.append(chip(l, String(state.day)===String(k), ()=>{state.day=k; update();})));
   const g = document.getElementById("genreRow"); g.replaceChildren();
   const used = [...new Set(EVENTS.map(e=>e.genre))];
@@ -271,16 +272,25 @@ const YTI = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="4" width
 const yt = q => "https://www.youtube.com/results?search_query=" + encodeURIComponent(q);
 const spEmbed = (kind,id) => `<iframe class="spf" src="https://open.spotify.com/embed/${kind}/${id}?utm_source=generator&theme=0" height="152" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify player"></iframe>`;
 function players(ev){
-  const out = [];
-  [ev.track, ev.track2].filter(Boolean).forEach(t => out.push(spEmbed("track", t.url.split("/track/")[1])));
-  if(!ev.track){ const a = ev.artists.find(x => SP_ARTIST[x]); if(a) out.push(spEmbed("artist", SP_ARTIST[a])); }
-  if(ev.ytvid) out.push(`<div class="ytf"><iframe src="https://www.youtube-nocookie.com/embed/${ev.ytvid}" title="YouTube set" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy"></iframe></div>`);
-  if(!out.length){
-    const lead = ev.artists[0] || ev.fallback || ev.title;
-    out.push(`<a class="play" href="${yt(lead + (ev.artists.length ? " live set" : " music"))}" target="_blank" rel="noopener"><span class="ico">▶</span><span class="t"><b>${ev.artists.length ? lead + " live sets" : "Listen: " + lead}</b><small>Opens YouTube</small></span>${YTI}</a>`);
-  }
-  return out.join("");
+  if(ev.vids && ev.vids.length) return ev.vids.map(v => `
+    <div class="yt-wrap">
+      <button class="ytp" type="button" data-vid="${v.id}" aria-label="Play ${v.label}">
+        <img src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()">
+        <span class="ytp-btn">▶</span>
+        <span class="ytp-lbl">${v.label}</span>
+      </button>
+      <a class="yt-out" href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">Doesn't play? Open on YouTube ↗</a>
+    </div>`).join("");
+  const lead = ev.artists[0] || ev.fallback || ev.title;
+  return `<a class="play" href="${yt(lead + (ev.artists.length ? " live set" : " music"))}" target="_blank" rel="noopener"><span class="ico">▶</span><span class="t"><b>${ev.artists.length ? lead + " live sets" : "Listen: " + lead}</b><small>Opens YouTube</small></span>${YTI}</a>`;
 }
+document.addEventListener("click", e => {
+  const b = e.target.closest(".ytp"); if(!b) return;
+  document.querySelectorAll(".ytf iframe").forEach(f => { const p = f.closest(".ytf"); p.replaceWith(p._btn); }); // one video at a time
+  const box = document.createElement("div"); box.className = "ytf"; box._btn = b;
+  box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${b.dataset.vid}?autoplay=1&playsinline=1&rel=0" title="YouTube player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+  b.replaceWith(box);
+});
 function artistChips(ev){
   return ev.artists.map(a => SP_ARTIST[a]
     ? `<a class="sp" href="https://open.spotify.com/artist/${SP_ARTIST[a]}" target="_blank" rel="noopener">${SPOT}${a}</a>`
