@@ -64,6 +64,8 @@ h2{font-family:var(--display);font-weight:800;font-size:22px;line-height:1.1;mar
 .lineup{font-size:13.5px;color:var(--fg)}
 .lineup span{color:var(--muted)}
 .price{display:flex;gap:8px;align-items:baseline;font-weight:600;color:var(--amber);font-size:14.5px}
+.price b{font-weight:600}
+.ils{margin-top:-4px;font-size:14px;font-weight:600;color:var(--fg);padding-left:64px}
 .price span{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500}
 .desc{margin:0;color:#d6cce2}
 .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
@@ -129,7 +131,7 @@ footer a{color:var(--muted)}
   </section>
 
   <footer>
-    <div>Pick score is our 1–5 rating based on lineup, venue and draw. "Interested" is the RA count at time of writing. Prices are from the official ticket pages as of 29 Sep and can rise closer to the date.</div>
+    <div>Pick score is our 1–5 rating based on lineup, venue and draw. "Interested" is the RA count at time of writing. Prices are from the official ticket pages as of 29 Sep and can rise closer to the date. Shekel amounts use 1 CZK ≈ ₪0.14.</div>
     <div>Lineups change. Check the event page a few days before. Poster art is generated per genre. Tap a video to play the artist right here.</div>
     <div>Sources: official event pages on <a href="https://goout.net/en/prague/parties/leznyvlkkzj/" target="_blank" rel="noopener">GoOut</a>, <a href="https://www.crossclub.cz/cs/program/" target="_blank" rel="noopener">Cross Club</a>, <a href="https://anka.li/upcoming-events/" target="_blank" rel="noopener">Ankali</a>, <a href="https://www.fuchs2.cz/shows" target="_blank" rel="noopener">Fuchs2</a>, <a href="https://www.epicprague.com/en/" target="_blank" rel="noopener">EPIC</a> and <a href="https://ra.co/clubs/3429" target="_blank" rel="noopener">RA</a>.</div>
   </footer>
@@ -214,6 +216,8 @@ const EXTRA = [
    link:"https://goout.net/en/zamilska-w-strachkvas-ida-elastic/szflxly/"}
 ];
 
+const CZK_ILS = 0.1425; // Wise mid-market rate, 29 Sep 2026
+const toILS = p => /\d/.test(p) ? p.replace(/ ?CZK/g, "").replace(/\d+/g, n => "₪" + Math.round(n * CZK_ILS)) : "";
 const DAYNAME = {8:"Thu",9:"Fri",10:"Sat",11:"Sun",12:"Mon",16:"Fri"};
 let state = {sort:"date", day:"all", genre:"all"};
 try{ const s = JSON.parse(localStorage.getItem("pn-state")||"null"); if(s) state = {...state,...s}; }catch(e){}
@@ -329,7 +333,7 @@ function card(ev){
       <h2>${ev.title}</h2>
       <div class="venue"><strong>${ev.venue}</strong> · ${ev.addr}</div>
       <div class="lineup"><span>Lineup:</span> ${ev.lineup}</div>
-      <div class="price"><span>Tickets</span> ${ev.price}</div>
+      <div class="price"><span>Tickets</span> <b>${ev.price}</b></div>${toILS(ev.price) ? `<div class="ils">≈ ${toILS(ev.price)}</div>` : ""}
       <p class="desc">${ev.desc}</p>
       <div class="links">
         <a class="btn primary" href="${ev.link}" target="_blank" rel="noopener">Tickets &amp; event page ↗</a>
