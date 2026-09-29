@@ -284,6 +284,17 @@ function players(ev){
   const lead = ev.artists[0] || ev.fallback || ev.title;
   return `<a class="play" href="${yt(lead + (ev.artists.length ? " live set" : " music"))}" target="_blank" rel="noopener"><span class="ico">▶</span><span class="t"><b>${ev.artists.length ? lead + " live sets" : "Listen: " + lead}</b><small>Opens YouTube</small></span>${YTI}</a>`;
 }
+/* Spotify: open the app directly; if it isn't installed, fall back to the website */
+document.addEventListener("click", e => {
+  const a = e.target.closest(".spapp"); if(!a) return;
+  e.preventDefault();
+  let left = false; const mark = () => { left = true; };
+  document.addEventListener("visibilitychange", mark, {once:true});
+  window.addEventListener("pagehide", mark, {once:true});
+  window.addEventListener("blur", mark, {once:true});
+  location.href = a.getAttribute("href");
+  setTimeout(() => { if(!left && !document.hidden) window.open(a.dataset.web, "_blank") || (location.href = a.dataset.web); }, 1500);
+});
 document.addEventListener("click", e => {
   const b = e.target.closest(".ytp"); if(!b) return;
   document.querySelectorAll(".ytf iframe").forEach(f => { const p = f.closest(".ytf"); p.replaceWith(p._btn); }); // one video at a time
@@ -293,7 +304,7 @@ document.addEventListener("click", e => {
 });
 function artistChips(ev){
   return ev.artists.map(a => SP_ARTIST[a]
-    ? `<a class="sp" href="https://open.spotify.com/artist/${SP_ARTIST[a]}" target="_blank" rel="noopener">${SPOT}${a}</a>`
+    ? `<a class="sp spapp" href="spotify:artist:${SP_ARTIST[a]}" data-web="https://open.spotify.com/artist/${SP_ARTIST[a]}">${SPOT}${a}</a>`
     : `<a class="sp" href="${yt(a)}" target="_blank" rel="noopener">${YTI}${a}</a>`).join("");
 }
 function card(ev){
