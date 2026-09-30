@@ -1,0 +1,158 @@
+{
+ "name": "Budapest",
+ "country": "Hungary",
+ "currency": "HUF",
+ "tz": "Europe/Budapest",
+ "note": "Budapest clubs rarely publish prices before checkout; add a 6% ticket fee and 600 HUF cloakroom at Akvárium.",
+ "sources": [
+  [
+   "Akvárium Klub",
+   "https://akvariumklub.hu/en/events/"
+  ],
+  [
+   "Songkick Budapest electronic",
+   "https://www.songkick.com/metro-areas/29047-hungary-budapest/genre/electronic"
+  ]
+ ],
+ "events": [
+  {
+   "id": "blockhead",
+   "date": "2026-10-01",
+   "time": "20:00",
+   "title": "Blockhead & Proleter",
+   "genre": "Hip-hop / House",
+   "score": 3.7,
+   "venue": "A38 Ship",
+   "area": "Buda riverside",
+   "addr": "A38 Hajó, Petőfi híd",
+   "lineup": "Blockhead, Proleter, Arms and Sleepers",
+   "desc": "Instrumental hip-hop and beats on a concert ship on the Danube.",
+   "link": "https://www.songkick.com/concerts/43122425-blockhead-at-a38-ship-a38-hajo",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Blockhead",
+    "Proleter"
+   ],
+   "vids": []
+  },
+  {
+   "id": "kobosil",
+   "date": "2026-10-02",
+   "time": "23:30",
+   "title": "Kobosil",
+   "genre": "Techno",
+   "score": 4.4,
+   "venue": "Akvárium Klub",
+   "area": "District V",
+   "addr": "Akvárium Klub, Erzsébet tér 12",
+   "lineup": "Kobosil, Kamafaka, Polar",
+   "desc": "Berghain resident Kobosil in Akvárium's main hall. The big techno night of the fortnight. 18+.",
+   "link": "https://akvariumklub.hu/en/events/kobosil/",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Kobosil"
+   ],
+   "vids": []
+  },
+  {
+   "id": "pastor",
+   "date": "2026-10-02",
+   "time": "23:00",
+   "title": "Joachim Pastor",
+   "genre": "Melodic",
+   "score": 4.0,
+   "venue": "Akvárium Klub",
+   "area": "District V",
+   "addr": "Akvárium Klub, Erzsébet tér 12",
+   "lineup": "Joachim Pastor",
+   "desc": "Melodic techno from the French producer in the small hall. 18+.",
+   "link": "https://akvariumklub.hu/en/events/akvawaves-pres-joachim-pastor-akvarium-klub/",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Joachim Pastor"
+   ],
+   "vids": []
+  },
+  {
+   "id": "acidarab-bp",
+   "date": "2026-10-03",
+   "time": "23:30",
+   "title": "Acid Arab (DJ set)",
+   "genre": "Techno",
+   "score": 4.1,
+   "venue": "Akvárium Klub",
+   "area": "District V",
+   "addr": "Akvárium Klub, Erzsébet tér 12",
+   "lineup": "Acid Arab + support TBA",
+   "desc": "Techno and acid house mixed with Middle Eastern and North African music. 18+.",
+   "link": "https://akvariumklub.hu/en/events/acidarab/",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Acid Arab"
+   ],
+   "vids": [
+    {
+     "id": "mpls1Mp4RFE",
+     "label": "Acid Arab – Leila (official video)"
+    }
+   ]
+  },
+  {
+   "id": "barwood",
+   "date": "2026-10-03",
+   "time": "23:00",
+   "title": "UND3RT3MPL3: Lloyd Barwood",
+   "genre": "Melodic",
+   "score": 3.6,
+   "venue": "Akvárium Klub",
+   "area": "District V",
+   "addr": "Akvárium Klub, Erzsébet tér 12",
+   "lineup": "Lloyd Barwood",
+   "desc": "Progressive and melodic house night.",
+   "link": "https://akvariumklub.hu/en/events/und3rt3mpl3-pres-lloyd-barwood/",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Lloyd Barwood"
+   ],
+   "vids": []
+  },
+  {
+   "id": "autechre-bp",
+   "date": "2026-10-08",
+   "time": "20:00",
+   "title": "Autechre with MDX",
+   "genre": "Techno",
+   "score": 4.2,
+   "venue": "House of Music Hungary",
+   "area": "City Park",
+   "addr": "Magyar Zene Háza, Városliget",
+   "lineup": "Autechre, MDX",
+   "desc": "Autechre's pitch-black live show in the striking House of Music.",
+   "link": "https://www.songkick.com/concerts/43268177-autechre-at-magyar-zene-haza",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Autechre"
+   ],
+   "vids": []
+  },
+  {
+   "id": "lithium",
+   "date": "2026-10-09",
+   "time": "22:00",
+   "title": "Lithium Night: 10th birthday",
+   "genre": "Club night",
+   "score": 3.6,
+   "venue": "Akvárium Klub",
+   "area": "District V",
+   "addr": "Akvárium Klub, Erzsébet tér 12",
+   "lineup": "Lithium Night DJs",
+   "desc": "Ten-year birthday of Budapest's long-running alternative and indie dance party.",
+   "link": "https://akvariumklub.hu/en/events/lithium-night-10-szulinapi-gigaparty/",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [],
+   "vids": []
+  }
+ ],
+ "slug": "budapest",
+ "updated": "2026-09-30"
+}

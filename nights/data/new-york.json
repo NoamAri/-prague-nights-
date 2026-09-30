@@ -1,0 +1,229 @@
+{
+ "name": "New York",
+ "country": "USA",
+ "currency": "USD",
+ "tz": "America/New_York",
+ "note": "",
+ "sources": [
+  [
+   "Shotgun NYC",
+   "https://shotgun.live/en/cities/new-york/house"
+  ],
+  [
+   "Elsewhere",
+   "https://www.elsewhere.club/events"
+  ],
+  [
+   "Good Room",
+   "https://www.goodroombk.com/"
+  ]
+ ],
+ "events": [
+  {
+   "id": "dapunks",
+   "date": "2026-10-01",
+   "time": "22:00",
+   "title": "Da Punks",
+   "genre": "Techno",
+   "score": 3.6,
+   "venue": "Jolene",
+   "area": "Brooklyn",
+   "addr": "Jolene, Brooklyn",
+   "lineup": "Da Punks",
+   "desc": "Midweek techno and house in a small Brooklyn club.",
+   "link": "https://shotgun.live/en/events/da-punks-jolene",
+   "price": "$25",
+   "artists": [
+    "Da Punks"
+   ],
+   "vids": []
+  },
+  {
+   "id": "djplead",
+   "date": "2026-10-01",
+   "time": "22:00",
+   "title": "DJ Plead, rrao",
+   "genre": "Bass",
+   "score": 3.8,
+   "venue": "Good Room",
+   "area": "Greenpoint",
+   "addr": "Good Room, 98 Meserole Ave, Brooklyn",
+   "lineup": "DJ Plead, rrao",
+   "desc": "Percussive, left-field club music from the Australian producer.",
+   "link": "https://ra.co/events/2521118",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "DJ Plead"
+   ],
+   "vids": []
+  },
+  {
+   "id": "dusky",
+   "date": "2026-10-02",
+   "time": "22:00",
+   "title": "Dusky",
+   "genre": "House",
+   "score": 4.3,
+   "venue": "Elsewhere",
+   "area": "Bushwick",
+   "addr": "Elsewhere, 599 Johnson Ave, Brooklyn",
+   "lineup": "Dusky, dj poolboi, Rae Sada, shimmer",
+   "desc": "UK duo Dusky take over all of Elsewhere's rooms. Deep, emotional house and garage.",
+   "link": "https://www.elsewhere.club/events/1992171479523",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Dusky"
+   ],
+   "vids": []
+  },
+  {
+   "id": "bookclub",
+   "date": "2026-10-02",
+   "time": "14:00",
+   "title": "Book Club Radio Festival #2",
+   "genre": "Festival",
+   "score": 3.9,
+   "venue": "Brooklyn Roots Collective",
+   "area": "Brooklyn",
+   "addr": "Brooklyn Roots Collective",
+   "lineup": "Book Club Radio residents and guests (Oct 2–4)",
+   "desc": "Three-day community house and techno festival from the Brooklyn online radio.",
+   "link": "https://shotgun.live/en/festivals/bookclubradiofest2",
+   "price": "$59.99",
+   "artists": [],
+   "vids": [],
+   "end": "2026-10-04"
+  },
+  {
+   "id": "djminx",
+   "date": "2026-10-03",
+   "time": "22:00",
+   "title": "Raw Cuts × House of Yes: DJ Minx",
+   "genre": "House",
+   "score": 4.1,
+   "venue": "House of Yes",
+   "area": "Bushwick",
+   "addr": "House of Yes, 2 Wyckoff Ave, Brooklyn",
+   "lineup": "DJ Minx",
+   "desc": "Detroit house legend at New York's most theatrical club.",
+   "link": "https://shotgun.live/en/events/raw-cuts-dj-minx-oct-3",
+   "price": "$31.50",
+   "artists": [
+    "DJ Minx"
+   ],
+   "vids": []
+  },
+  {
+   "id": "nocturne",
+   "date": "2026-10-03",
+   "time": "22:00",
+   "title": "Jordan Nocturne, Arvin T",
+   "genre": "House",
+   "score": 3.8,
+   "venue": "Good Room",
+   "area": "Greenpoint",
+   "addr": "Good Room, 98 Meserole Ave, Brooklyn",
+   "lineup": "Good Room: Jordan Nocturne, Arvin T · Bad Room: Laila Amira & Lady Harley all night",
+   "desc": "Two rooms of house and disco in one of Brooklyn's best-loved clubs.",
+   "link": "https://ra.co/events/2540465",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Jordan Nocturne"
+   ],
+   "vids": []
+  },
+  {
+   "id": "ra25",
+   "date": "2026-10-09",
+   "time": "22:00",
+   "title": "RA25: NYC",
+   "genre": "Techno",
+   "score": 4.2,
+   "venue": "Good Room",
+   "area": "Greenpoint",
+   "addr": "Good Room, 98 Meserole Ave, Brooklyn",
+   "lineup": "Resident Advisor 25th anniversary lineup",
+   "desc": "Resident Advisor celebrates 25 years with a New York party.",
+   "link": "https://ra.co/events/2497459",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "berlinbeyond",
+   "date": "2026-10-10",
+   "time": "21:00",
+   "title": "Berlin Beyond: Year 3",
+   "genre": "Techno",
+   "score": 4.0,
+   "venue": "Industry City",
+   "area": "Sunset Park",
+   "addr": "Industry City, Brooklyn",
+   "lineup": "Berlin-style techno lineup",
+   "desc": "Berlin-inspired techno party in a huge Sunset Park warehouse. Waiting list only right now.",
+   "link": "https://shotgun.live/en/events/berlin-beyond-year3",
+   "price": "Waiting list",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "aluna",
+   "date": "2026-10-10",
+   "time": "22:00",
+   "title": "Libra Rising: Aluna",
+   "genre": "House",
+   "score": 4.0,
+   "venue": "House of Yes",
+   "area": "Bushwick",
+   "addr": "House of Yes, 2 Wyckoff Ave, Brooklyn",
+   "lineup": "Aluna, Darling Cool, Niara Sterling",
+   "desc": "The AlunaGeorge singer and DJ leads a joyful dance-pop and house night.",
+   "link": "https://shotgun.live/en/events/libra-rising-aluna-oct-10",
+   "price": "$37.80",
+   "artists": [
+    "Aluna"
+   ],
+   "vids": []
+  },
+  {
+   "id": "servito",
+   "date": "2026-10-10",
+   "time": "22:00",
+   "title": "Stuntsz, Mike Servito",
+   "genre": "Techno",
+   "score": 4.0,
+   "venue": "Good Room",
+   "area": "Greenpoint",
+   "addr": "Good Room, 98 Meserole Ave, Brooklyn",
+   "lineup": "Good Room: Stuntsz ft Prince Rose, Ty Sunderland, Mike Servito · Bad Room: Drew Baker, Progness, Memphy",
+   "desc": "Detroit-rooted techno and electro from Mike Servito plus a second room.",
+   "link": "https://ra.co/events/2536652",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Mike Servito"
+   ],
+   "vids": []
+  },
+  {
+   "id": "krivit",
+   "date": "2026-10-11",
+   "time": "18:00",
+   "title": "718 Sessions with Danny Krivit",
+   "genre": "House",
+   "score": 4.3,
+   "venue": "Good Room",
+   "area": "Greenpoint",
+   "addr": "Good Room, 98 Meserole Ave, Brooklyn",
+   "lineup": "Danny Krivit · Bad Room: That Matt",
+   "desc": "The legendary Sunday dance party from a New York disco and house icon.",
+   "link": "https://ra.co/events/2543222",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Danny Krivit"
+   ],
+   "vids": []
+  }
+ ],
+ "slug": "new-york",
+ "updated": "2026-09-30"
+}

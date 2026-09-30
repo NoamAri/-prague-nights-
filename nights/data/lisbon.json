@@ -1,0 +1,147 @@
+{
+ "name": "Lisbon",
+ "country": "Portugal",
+ "currency": "EUR",
+ "tz": "Europe/Lisbon",
+ "note": "Only the first week is covered so far: Lisbon listings for 4–14 Oct didn't load from here. Lux Frágil posts its program late.",
+ "sources": [
+  [
+   "Shotgun Lisbon",
+   "https://shotgun.live/en/cities/lisbon"
+  ],
+  [
+   "Shotgun Lisbon techno",
+   "https://shotgun.live/en/cities/lisbon/techno"
+  ]
+ ],
+ "events": [
+  {
+   "id": "carpet",
+   "date": "2026-09-30",
+   "time": "22:00",
+   "title": "Room: Carpet Club",
+   "genre": "House",
+   "score": 3.3,
+   "venue": "Rūmu",
+   "area": "Cais do Sodré",
+   "addr": "Rūmu Lisboa",
+   "lineup": "Carpet Club",
+   "desc": "Cheap Wednesday house night in a small, stylish club.",
+   "link": "https://shotgun.live/en/events/room-wednesdays-curated-by-carpet-club-83",
+   "price": "€5",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "mothership",
+   "date": "2026-09-30",
+   "time": "23:59",
+   "title": "Mothership",
+   "genre": "Club night",
+   "score": 3.4,
+   "venue": "Lisboa Rio Club",
+   "area": "Lisbon",
+   "addr": "Lisboa Rio Club",
+   "lineup": "Mothership residents",
+   "desc": "Late Wednesday party by the river.",
+   "link": "https://shotgun.live/en/events/mothership-30-sep",
+   "price": "€10",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "satya",
+   "date": "2026-10-01",
+   "time": "22:00",
+   "title": "Satya label night: Matthew Dekay & Yokoo",
+   "genre": "Melodic",
+   "score": 4.2,
+   "venue": "Rūmu",
+   "area": "Cais do Sodré",
+   "addr": "Rūmu Lisboa",
+   "lineup": "Matthew Dekay, Yokoo",
+   "desc": "Warm, melodic house from the Satya label bosses in an intimate room.",
+   "link": "https://shotgun.live/en/events/satya-label-night-with-matthew-dekay-and-yokoo-01-oct",
+   "price": "€15",
+   "artists": [
+    "Matthew Dekay",
+    "Yokoo"
+   ],
+   "vids": []
+  },
+  {
+   "id": "riktus",
+   "date": "2026-10-01",
+   "time": "23:59",
+   "title": "Riktus invites Hard Bock Drauf",
+   "genre": "Techno",
+   "score": 3.8,
+   "venue": "Ministerium",
+   "area": "Praça do Comércio",
+   "addr": "Ministerium Club, Praça do Comércio",
+   "lineup": "Hard Bock Drauf + Riktus",
+   "desc": "Hard techno in Lisbon's best-known techno club under the Praça do Comércio arcades.",
+   "link": "https://shotgun.live/en/events/riktus-invites-hard-bock-drauf",
+   "price": "€10",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "dvrksun",
+   "date": "2026-10-02",
+   "time": "22:00",
+   "title": "Dvrksun 11 with Fantasm",
+   "genre": "Techno",
+   "score": 3.9,
+   "venue": "Carlos Lopes Pavilion",
+   "area": "Parque Eduardo VII",
+   "addr": "Pavilhão Carlos Lopes",
+   "lineup": "Fantasm & more",
+   "desc": "Big one-off techno night in a beautiful tiled pavilion in the park.",
+   "link": "https://shotgun.live/en/events/dvrksun-11",
+   "price": "€50",
+   "artists": [
+    "Fantasm"
+   ],
+   "vids": []
+  },
+  {
+   "id": "armana",
+   "date": "2026-10-03",
+   "time": "23:50",
+   "title": "Armana Khan + MEG10",
+   "genre": "Techno",
+   "score": 3.6,
+   "venue": "Moon Club",
+   "area": "Lisbon",
+   "addr": "Moon Club Lisboa",
+   "lineup": "Armana Khan, MEG10",
+   "desc": "Digital Destiny weekend party with Armana Khan's Lisbon debut.",
+   "link": "https://shotgun.live/en/events/armana-khan-lisbon-digital-destiny-october-3",
+   "price": "€10",
+   "artists": [
+    "Armana Khan"
+   ],
+   "vids": []
+  },
+  {
+   "id": "tuim",
+   "date": "2026-10-03",
+   "time": "23:00",
+   "title": "Baile do Tuim: Batendo Bolo 2.0",
+   "genre": "Club night",
+   "score": 3.5,
+   "venue": "KØMPLEX",
+   "area": "Lisbon",
+   "addr": "KØMPLEX Lisbon",
+   "lineup": "Baile do Tuim crew",
+   "desc": "Brazilian baile funk party. Loud, sweaty and fun.",
+   "link": "https://shotgun.live/en/events/baile-do-tuim-batendo-bolo-2-0-bateu-cresceu",
+   "price": "€12",
+   "artists": [],
+   "vids": []
+  }
+ ],
+ "slug": "lisbon",
+ "updated": "2026-09-30"
+}

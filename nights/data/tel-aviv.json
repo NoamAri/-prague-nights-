@@ -1,0 +1,511 @@
+{
+ "name": "Tel Aviv",
+ "country": "Israel",
+ "currency": "ILS",
+ "tz": "Asia/Jerusalem",
+ "note": "",
+ "sources": [
+  [
+   "Airdrop",
+   "https://airdrop.co.il/tel-aviv"
+  ],
+  [
+   "Secret Tel Aviv",
+   "https://www.secrettelaviv.com/tickets/categories/parties"
+  ],
+  [
+   "Haoman 17",
+   "https://www.haoman17.com/events"
+  ],
+  [
+   "Hangar 11",
+   "https://hangar11.co.il/"
+  ],
+  [
+   "Barby",
+   "https://barby.co.il/"
+  ]
+ ],
+ "events": [
+  {
+   "id": "formula",
+   "date": "2026-09-30",
+   "time": "15:00",
+   "title": "The Formula: Quarter to Seven",
+   "genre": "Melodic",
+   "score": 4.5,
+   "artists": [
+    "Adam Ten",
+    "Rafael",
+    "Hard to Tell"
+   ],
+   "vids": [
+    {
+     "id": "cSBwX-o3tC4",
+     "label": "Adam Ten – Sde Boker desert set"
+    }
+   ],
+   "price": "From ₪179",
+   "venue": "Tel Aviv Port",
+   "area": "Port",
+   "addr": "Tel Aviv Port",
+   "lineup": "Adam Ten, Rafael, Hard to Tell, Ašk, Fly Effect, Dodi & Toni B, Ofeko",
+   "desc": "Ten-hour open-air party at the port that starts in daylight and peaks at sunset. Adam Ten is one of Israel's biggest melodic house exports.",
+   "link": "https://www.eventer.co.il/event/yq42f/QMwYL"
+  },
+  {
+   "id": "offgrid",
+   "date": "2026-09-30",
+   "time": "21:00",
+   "title": "Off Grid",
+   "genre": "House",
+   "score": 3.6,
+   "artists": [
+    "Bido",
+    "Braidy",
+    "Spacho & Lamor"
+   ],
+   "price": "Free before 23:00 · ₪50 after",
+   "venue": "Kuli Alma",
+   "area": "Center",
+   "addr": "Kuli Alma, Mikveh Israel 10",
+   "lineup": "Bido, Braidy, Spacho & Lamor, Idan",
+   "desc": "Weeknight beats in Tel Aviv's favourite art-bar courtyard. Relaxed crowd, free if you arrive early.",
+   "link": "https://www.secrettelaviv.com/tickets/off-grid-kuli-alma-9",
+   "vids": []
+  },
+  {
+   "id": "astrix",
+   "date": "2026-10-01",
+   "time": "22:00",
+   "title": "Paradox Sukkot: Astrix × Dekel",
+   "genre": "Psytrance",
+   "score": 4.7,
+   "artists": [
+    "Astrix",
+    "Dekel",
+    "Noam Leshem"
+   ],
+   "vids": [
+    {
+     "id": "xw3C03Ba8Dk",
+     "label": "Astrix – Deep Jungle Walk"
+    }
+   ],
+   "price": "From ₪172",
+   "venue": "Reading 3",
+   "area": "Port",
+   "addr": "Reading 3, Tel Aviv Port",
+   "lineup": "Astrix, Dekel, Noam Leshem + special guests",
+   "desc": "The biggest psytrance name in Israel headlines the Sukkot holiday night in the huge Reading 3 hall. Expect a packed, high-energy crowd.",
+   "link": "https://zygo.co.il/event/110800120815761434/zygo"
+  },
+  {
+   "id": "decision",
+   "date": "2026-10-01",
+   "time": "22:00",
+   "title": "Decision Sukkot Festival",
+   "genre": "Psytrance",
+   "score": 4,
+   "artists": [
+    "Captain Hook",
+    "Out of Orbit",
+    "Rising Dust"
+   ],
+   "vids": [
+    {
+     "id": "vJK88f9xYZQ",
+     "label": "Captain Hook B2B Out of Orbit"
+    }
+   ],
+   "price": "From ₪129",
+   "venue": "Haoman 17",
+   "area": "South",
+   "addr": "Haoman 17, Abarbanel 88",
+   "lineup": "Main: Out of Orbit, Rising Dust, Captain Hook, Atara, Danino + more · Garden: mainstream stage",
+   "desc": "Two stages, two worlds: trance and techno in the main hall, mainstream in the garden. Runs until 7am.",
+   "link": "https://zygo.co.il/event/460890237507964709/zygo"
+  },
+  {
+   "id": "fracture",
+   "date": "2026-10-01",
+   "time": "23:59",
+   "title": "Fracture by Ethereal",
+   "genre": "Techno",
+   "score": 4.1,
+   "artists": [
+    "Gaya Carmel",
+    "A/Z",
+    "Red Pill"
+   ],
+   "price": "Not listed publicly · shown at checkout",
+   "venue": "Zappa",
+   "area": "North",
+   "addr": "Zappa Tel Aviv",
+   "lineup": "A/Z, Gaya Carmel, Inei, Dambø, Ofek, Red Pill, Shøded · Cityboy for afters",
+   "desc": "All-night underground rave from midnight to 8am. The pick if you want proper techno rather than a holiday festival.",
+   "link": "https://selector.org.il/e/NV4S_zOC3F4",
+   "vids": []
+  },
+  {
+   "id": "swissa1",
+   "date": "2026-10-02",
+   "time": "23:00",
+   "title": "Asher Swissa × Shidapu",
+   "genre": "Techno",
+   "score": 4,
+   "artists": [
+    "Asher Swissa",
+    "Shidapu"
+   ],
+   "vids": [
+    {
+     "id": "WcmXtW4qr3A",
+     "label": "Asher Swissa – Buzzing"
+    }
+   ],
+   "price": "Not listed publicly · shown at checkout",
+   "venue": "Moon Child",
+   "area": "Port",
+   "addr": "Moon Child, Hangar 23, Tel Aviv Port",
+   "lineup": "Asher Swissa, Shidapu",
+   "desc": "Open-air Friday at the port with two of Israel's most popular techno DJs. Techno and mainstream areas under the sky.",
+   "link": "https://go-out.co/event/1789125536346"
+  },
+  {
+   "id": "bubbles",
+   "date": "2026-10-03",
+   "time": "22:30",
+   "title": "Bubbles × Asher Swissa",
+   "genre": "Techno",
+   "score": 3.8,
+   "artists": [
+    "Asher Swissa",
+    "Omri."
+   ],
+   "vids": [
+    {
+     "id": "0KDo5N1BH30",
+     "label": "Asher Swissa – Live at Shalvata"
+    }
+   ],
+   "price": "From ₪80",
+   "venue": "Shalvata",
+   "area": "Port",
+   "addr": "Shalvata, Tel Aviv Port",
+   "lineup": "Asher Swissa (special set), Omri., Lell'e B2B Dorè, Dannilo, Nahum",
+   "desc": "Saturday night Sukkot special at the port's classic beach bar. Asher Swissa mixes psytrance, techno and house.",
+   "link": "https://www.eventer.co.il/event/26g2f/sDzYL"
+  },
+  {
+   "id": "azealia",
+   "date": "2026-10-08",
+   "time": "Evening",
+   "title": "Azealia Banks",
+   "genre": "Hip-hop / House",
+   "score": 4.2,
+   "artists": [
+    "Azealia Banks"
+   ],
+   "vids": [
+    {
+     "id": "v1MPemaR3Y4",
+     "label": "Azealia Banks – 212 (official video)"
+    }
+   ],
+   "price": "₪229",
+   "venue": "Amphi Tel Aviv",
+   "area": "Park HaYarkon",
+   "addr": "Amphi Tel Aviv, Ganei Yehoshua",
+   "lineup": "Azealia Banks",
+   "desc": "Live show from the rapper behind '212', who mixes hip-hop with club and house beats. Open-air amphitheater in the park.",
+   "link": "https://www.kupat.co.il/show/azealia-banks"
+  },
+  {
+   "id": "freaks",
+   "date": "2026-10-08",
+   "time": "Midnight",
+   "title": "Freaks & Sticks: Freak 2 Freak",
+   "genre": "House",
+   "score": 3.9,
+   "artists": [
+    "Bobaz Lobster"
+   ],
+   "vids": [
+    {
+     "id": "cIELZrUHprE",
+     "label": "Bobaz Lobster × Freaks & Sticks"
+    }
+   ],
+   "price": "Not listed publicly · shown at checkout",
+   "venue": "Haoman 17",
+   "area": "South",
+   "addr": "Haoman 17, Abarbanel 88",
+   "lineup": "Bobaz Lobster face-to-face sets 01:30–06:00 · after party 07:00–10:00",
+   "desc": "The most colourful dance floor in town, with a new back-to-back format. Goes on until 10am.",
+   "link": "https://www.eventer.co.il/freaksss"
+  },
+  {
+   "id": "kinotodo",
+   "date": "2026-10-09",
+   "time": "23:00",
+   "title": "Kino Todo × Pettra",
+   "genre": "Psytrance",
+   "score": 3.7,
+   "artists": [
+    "Pettra"
+   ],
+   "vids": [
+    {
+     "id": "TTRihWtJEq0",
+     "label": "Pettra – live at Darwishland"
+    }
+   ],
+   "price": "Not listed publicly · shown at checkout",
+   "venue": "Moon Child",
+   "area": "Port",
+   "addr": "Moon Child, Hangar 23, Tel Aviv Port",
+   "lineup": "Pettra + Kino Todo crew",
+   "desc": "Nature-trance and ethnic electronic night in the open air at the port.",
+   "link": "https://go-out.co/event/1789124318268"
+  },
+  {
+   "id": "genish",
+   "date": "2026-10-09",
+   "time": "23:59",
+   "title": "Genish at Room 48",
+   "genre": "Melodic",
+   "score": 3.8,
+   "artists": [
+    "Genish"
+   ],
+   "vids": [
+    {
+     "id": "e6aoizQGR9c",
+     "label": "Genish – live set"
+    }
+   ],
+   "price": "From ₪99 · 24+",
+   "venue": "Room 48",
+   "area": "Center",
+   "addr": "King George 48",
+   "lineup": "Genish",
+   "desc": "Middle Eastern and North African roots meet modern psychedelia in a new central club. Ticket holders guaranteed entry until 1:30.",
+   "link": "https://go-out.co/event/1790144808541"
+  },
+  {
+   "id": "bazaar",
+   "date": "2026-10-10",
+   "time": "16:00",
+   "title": "Bazaar: Playa by the Sea",
+   "genre": "Day party",
+   "score": 3.8,
+   "artists": [
+    "Genish",
+    "Noam Leshem",
+    "Maya Haviv"
+   ],
+   "price": "Not listed publicly · shown at checkout",
+   "venue": "Moon Child",
+   "area": "Port",
+   "addr": "Moon Child, Hangar 23, Tel Aviv Port",
+   "lineup": "Genish, Maya Haviv, Maayan Rahamim, Mines, Noam Leshem, Noomi",
+   "desc": "Seaside afternoon-into-evening party with a Burn-style market and art. Good daytime option, 16:00–23:00.",
+   "link": "https://www.eventer.co.il/gb22f",
+   "vids": []
+  },
+  {
+   "id": "sander",
+   "date": "2026-10-15",
+   "time": "22:00",
+   "title": "Timeless: Sander van Doorn",
+   "genre": "Trance",
+   "score": 4.3,
+   "artists": [
+    "Sander van Doorn",
+    "Oforia"
+   ],
+   "vids": [
+    {
+     "id": "RE_W_SseYoc",
+     "label": "Sander van Doorn & Mayaeni – Nothing Inside"
+    }
+   ],
+   "price": "₪159–249",
+   "venue": "The Place",
+   "area": "Center",
+   "addr": "The Place Tel Aviv",
+   "lineup": "Sander van Doorn (2-hour producer set), Yuval Zach & Alon Halperin, Oforia (retro trance close)",
+   "desc": "The Dutch trance star plays the hits of 2000–2015 in an intimate 600-capacity room. One of the few international headliners this month.",
+   "link": "https://www.eventer.co.il/events/z6b2f"
+  },
+  {
+   "id": "colorful",
+   "date": "2026-10-15",
+   "time": "23:30",
+   "title": "Colorful Festival",
+   "genre": "Psytrance",
+   "score": 4,
+   "artists": [
+    "Pettra",
+    "Darwish"
+   ],
+   "vids": [
+    {
+     "id": "MyBwfsW-jRI",
+     "label": "Pettra & Darwish – Savta"
+    }
+   ],
+   "price": "From ₪131",
+   "venue": "Gagarin",
+   "area": "South",
+   "addr": "Gagarin Club",
+   "lineup": "Pettra, Darwish",
+   "desc": "Pettra and Darwish, two of the most popular nature-trance DJs in Israel, together at Gagarin until 6am.",
+   "link": "https://go-out.co/event/1789200735350"
+  },
+  {
+   "id": "shtuby",
+   "date": "2026-10-16",
+   "time": "23:00",
+   "title": "Shtuby × Club de Combat",
+   "genre": "Techno",
+   "score": 3.7,
+   "artists": [
+    "Shtuby",
+    "Club de Combat"
+   ],
+   "vids": [
+    {
+     "id": "1-SjbiSWgZw",
+     "label": "Shtuby – Ozora Festival 2025"
+    }
+   ],
+   "price": "Not listed publicly · shown at checkout",
+   "venue": "Moon Child",
+   "area": "Port",
+   "addr": "Moon Child, Hangar 23, Tel Aviv Port",
+   "lineup": "Shtuby, Club de Combat",
+   "desc": "Hypnotic, psychedelic techno from a festival favourite, open air at the port.",
+   "link": "https://go-out.co/event/1789124589389"
+  },
+  {
+   "id": "polishuk",
+   "date": "2026-10-22",
+   "time": "21:00",
+   "title": "Polishuk Trance Party",
+   "genre": "Retro",
+   "score": 3.6,
+   "artists": [
+    "Lasgo",
+    "Adamski"
+   ],
+   "vids": [
+    {
+     "id": "BF5bV6oWXJg",
+     "label": "Lasgo – Something (official video)"
+    }
+   ],
+   "price": "₪189 · 35+",
+   "venue": "Hangar 11",
+   "area": "Port",
+   "addr": "Hangar 11, Tel Aviv Port",
+   "lineup": "Evi Goffin (ex-Lasgo, live), DJ Adamski, Ella Gotman, Yahel, Eran Barnea",
+   "desc": "90s and 2000s trance anthems with Lasgo's singer live. Ages 35 and up only.",
+   "link": "https://hangar11.co.il/events/event/polishuk-trance-party/"
+  },
+  {
+   "id": "barby90s",
+   "date": "2026-10-22",
+   "time": "21:30",
+   "title": "Tel Aviv Goes Back to the 90s",
+   "genre": "Retro",
+   "score": 3.5,
+   "artists": [],
+   "price": "₪68 early bird · ₪88",
+   "venue": "Barby",
+   "area": "South",
+   "addr": "Barby, Kibbutz Galuyot 52",
+   "lineup": "Non-stop 90s hits and surprise performances",
+   "desc": "Cheap, silly, fun 90s party at a classic live venue. Good for a group.",
+   "link": "https://barby.co.il/show/5536",
+   "vids": []
+  },
+  {
+   "id": "darwish",
+   "date": "2026-10-23",
+   "time": "23:00",
+   "title": "Darwish × Melodic",
+   "genre": "Psytrance",
+   "score": 3.8,
+   "artists": [
+    "Darwish"
+   ],
+   "vids": [
+    {
+     "id": "hiOLeSRcJqQ",
+     "label": "Pettra & Darwish – Asfur"
+    }
+   ],
+   "price": "Free until 23:30 with registration",
+   "venue": "Moon Child",
+   "area": "Port",
+   "addr": "Moon Child, Hangar 23, Tel Aviv Port",
+   "lineup": "Darwish",
+   "desc": "Friday open air with Darwish in the trance area and melodic techno in the second one. Register ahead for free early entry.",
+   "link": "https://go-out.co/event/1789124694055"
+  },
+  {
+   "id": "teva",
+   "date": "2026-10-24",
+   "time": "18:30",
+   "title": "Mesibat Teva: Darwish & friends",
+   "genre": "Day party",
+   "score": 3.9,
+   "artists": [
+    "Darwish",
+    "Mosh Ben Ari"
+   ],
+   "vids": [
+    {
+     "id": "XlcvO_eGvok",
+     "label": "Mosh Ben Ari & Darwish – Mamriim"
+    }
+   ],
+   "price": "₪70",
+   "venue": "Amphi Tel Aviv",
+   "area": "Park HaYarkon",
+   "addr": "Amphi Tel Aviv, Ganei Yehoshua",
+   "lineup": "Darwish, DJ Gura G · live guests Mosh Ben-Ari and Karolina",
+   "desc": "End-of-summer open-air party in the park, with tribal beats and live singers. Early evening, 18+.",
+   "link": "https://www.goshow.co.il/show/21851/56767"
+  },
+  {
+   "id": "swissa2",
+   "date": "2026-10-30",
+   "time": "23:00",
+   "title": "Asher Swissa × Bliss",
+   "genre": "Techno",
+   "score": 3.9,
+   "artists": [
+    "Asher Swissa",
+    "Bliss"
+   ],
+   "vids": [
+    {
+     "id": "Wn5OhBvhokc",
+     "label": "Asher Swissa – Where Are You Going?"
+    }
+   ],
+   "price": "Not listed publicly · register ahead for entry before 23:30",
+   "venue": "Moon Child",
+   "area": "Port",
+   "addr": "Moon Child, Hangar 23, Tel Aviv Port",
+   "lineup": "Asher Swissa, Bliss",
+   "desc": "Friday open air with techno and mainstream areas under the sky. Registration is required to get in before 23:30.",
+   "link": "https://go-out.co/event/1789124801362"
+  }
+ ],
+ "slug": "tel-aviv",
+ "updated": "2026-09-30"
+}

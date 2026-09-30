@@ -1,0 +1,246 @@
+{
+ "name": "Los Angeles",
+ "country": "USA",
+ "currency": "USD",
+ "tz": "America/Los_Angeles",
+ "note": "",
+ "sources": [
+  [
+   "19hz",
+   "https://19hz.info/eventlisting_LosAngeles.php"
+  ]
+ ],
+ "events": [
+  {
+   "id": "kettama",
+   "date": "2026-09-30",
+   "time": "20:00",
+   "title": "Kettama",
+   "genre": "House",
+   "score": 4.3,
+   "venue": "Shrine Expo Hall",
+   "area": "University Park",
+   "addr": "Shrine Expo Hall",
+   "lineup": "Kettama",
+   "desc": "The Irish house producer's third sold-out-style night at the Shrine. Big, bouncy, euphoric house. 18+.",
+   "link": "https://www.axs.com/events/1446844/kettama-3rd-night-added-tickets",
+   "price": "From $59",
+   "artists": [
+    "Kettama"
+   ],
+   "vids": []
+  },
+  {
+   "id": "zedsdead",
+   "date": "2026-10-02",
+   "time": "18:00",
+   "title": "Zeds Dead: Journey of a Lifetime",
+   "genre": "Bass",
+   "score": 4.2,
+   "venue": "Grand Park",
+   "area": "Downtown",
+   "addr": "Grand Park, Los Angeles",
+   "lineup": "Zeds Dead + support",
+   "desc": "Open-air bass music show in downtown's Grand Park from the Canadian duo. 18+.",
+   "link": "https://insomniac.frontgatetickets.com/event/6n29dfyg73uyszzb",
+   "price": "$71 presale",
+   "artists": [
+    "Zeds Dead"
+   ],
+   "vids": []
+  },
+  {
+   "id": "mala",
+   "date": "2026-10-02",
+   "time": "21:00",
+   "title": "B-Side: Mala, Contra, Litha",
+   "genre": "Bass",
+   "score": 4.3,
+   "venue": "The Compound",
+   "area": "Commerce",
+   "addr": "The Compound by Dirt Dog, Commerce",
+   "lineup": "Mala, Contra, Litha",
+   "desc": "Dubstep pioneer Mala on a proper sound system. A must for bass heads. 18+.",
+   "link": "https://www.ticketfairy.com/event/bsidela-mala/",
+   "price": "$48",
+   "artists": [
+    "Mala"
+   ],
+   "vids": []
+  },
+  {
+   "id": "adid",
+   "date": "2026-10-03",
+   "time": "14:00",
+   "title": "All Day I Dream",
+   "genre": "Melodic",
+   "score": 4.4,
+   "venue": "Pershing Square",
+   "area": "Downtown",
+   "addr": "Pershing Square, Los Angeles",
+   "lineup": "Lee Burridge & the All Day I Dream family",
+   "desc": "Lee Burridge's famous daytime melodic house party, outdoors downtown. 21+.",
+   "link": "https://dice.fm/event/bboe9m-all-day-i-dream-of-los-angeles-3rd-oct-pershing-square-los-angeles-tickets",
+   "price": "From $57",
+   "artists": [
+    "Lee Burridge"
+   ],
+   "vids": []
+  },
+  {
+   "id": "klang",
+   "date": "2026-10-03",
+   "time": "21:00",
+   "title": "OUTWORLD: KlangKuenstler all night long",
+   "genre": "Techno",
+   "score": 4.2,
+   "venue": "Kia Forum",
+   "area": "Inglewood",
+   "addr": "Kia Forum, Inglewood",
+   "lineup": "KlangKuenstler (all night long)",
+   "desc": "Hard, fast German techno for a whole night in an arena. Not for the faint-hearted.",
+   "link": "https://www.ticketmaster.com/event/090064B5A48CBE48",
+   "price": "From $108",
+   "artists": [
+    "KlangKuenstler"
+   ],
+   "vids": []
+  },
+  {
+   "id": "soulection",
+   "date": "2026-10-03",
+   "time": "15:00",
+   "title": "The Soulection Experience: 15 Years",
+   "genre": "Hip-hop / House",
+   "score": 4.1,
+   "venue": "Reframe Studios",
+   "area": "Downtown",
+   "addr": "Reframe Studios Outdoors, Los Angeles",
+   "lineup": "Joe Kay & the Soulection crew",
+   "desc": "The LA radio collective celebrates 15 years with soulful beats, R&B and club music. 21+.",
+   "link": "https://dice.fm/event/mxlw7w-framework-presents-the-soulection-experience-15-year-anniversary-3rd-oct-reframe-studios-outdoors-los-angeles-tickets",
+   "price": "From $113",
+   "artists": [
+    "Joe Kay"
+   ],
+   "vids": []
+  },
+  {
+   "id": "sidepiece",
+   "date": "2026-10-03",
+   "time": "14:00",
+   "title": "Sidepiece: Hollywood Block Party",
+   "genre": "House",
+   "score": 3.9,
+   "venue": "Hollywood Block Party",
+   "area": "Hollywood",
+   "addr": "Hollywood, Los Angeles",
+   "lineup": "Sidepiece",
+   "desc": "Tech house duo headlining an outdoor Hollywood block party. 21+.",
+   "link": "https://insomniac.frontgatetickets.com/event/bipz4vljzm73btil/",
+   "price": "$68–160",
+   "artists": [
+    "Sidepiece"
+   ],
+   "vids": []
+  },
+  {
+   "id": "oskar",
+   "date": "2026-10-07",
+   "time": "20:00",
+   "title": "Oskar Med K",
+   "genre": "House",
+   "score": 3.8,
+   "venue": "Fonda Theatre",
+   "area": "Hollywood",
+   "addr": "Fonda Theatre, Hollywood",
+   "lineup": "Oskar Med K",
+   "desc": "Swedish producer of feel-good, sun-soaked house in a classic Hollywood theatre. 18+.",
+   "link": "https://www.axs.com/events/1374163/oskar-med-k-tickets",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Oskar Med K"
+   ],
+   "vids": []
+  },
+  {
+   "id": "eots",
+   "date": "2026-10-08",
+   "time": "19:00",
+   "title": "Empire of the Sun with Polo & Pan",
+   "genre": "Live / Rock",
+   "score": 4.0,
+   "venue": "Hollywood Bowl",
+   "area": "Hollywood",
+   "addr": "Hollywood Bowl",
+   "lineup": "Empire of the Sun, Polo & Pan",
+   "desc": "Big electro-pop show under the stars. More concert than club, but a great night out.",
+   "link": "https://www.ticketmaster.com/event/0B006465E365551D",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Empire of the Sun",
+    "Polo & Pan"
+   ],
+   "vids": []
+  },
+  {
+   "id": "tinlicker",
+   "date": "2026-10-09",
+   "time": "20:00",
+   "title": "Tinlicker",
+   "genre": "Melodic",
+   "score": 4.1,
+   "venue": "The Wiltern",
+   "area": "Koreatown",
+   "addr": "The Wiltern",
+   "lineup": "Tinlicker",
+   "desc": "Dutch melodic house duo in one of LA's nicest art deco venues. All ages.",
+   "link": "https://www.ticketmaster.com/tinlicker-north-america-2026-los-angeles-california-10-09-2026/event/09006490AB107C05",
+   "price": "From $48",
+   "artists": [
+    "Tinlicker"
+   ],
+   "vids": []
+  },
+  {
+   "id": "deepmedi",
+   "date": "2026-10-09",
+   "time": "21:00",
+   "title": "Deep Medi Musik 20",
+   "genre": "Bass",
+   "score": 4.2,
+   "venue": "The Compound",
+   "area": "Commerce",
+   "addr": "The Compound by Dirt Dog, Commerce",
+   "lineup": "Deep Medi label showcase",
+   "desc": "Twentieth birthday of Mala's legendary dubstep label. 18+.",
+   "link": "https://www.ticketfairy.com/event/bsidela-deep-medi-20",
+   "price": "$38",
+   "artists": [
+    "Mala"
+   ],
+   "vids": []
+  },
+  {
+   "id": "bartskils",
+   "date": "2026-10-09",
+   "time": "22:00",
+   "title": "Bart Skils & Fun2bjane",
+   "genre": "Techno",
+   "score": 3.9,
+   "venue": "Secret location",
+   "area": "Los Angeles",
+   "addr": "Los Angeles",
+   "lineup": "Bart Skils, Fun2bjane",
+   "desc": "Warehouse-style techno at a location revealed to ticket holders. Cheaper before midnight. 21+.",
+   "link": "https://ra.co/events/2504787",
+   "price": "$25 before 12 · $35–42",
+   "artists": [
+    "Bart Skils"
+   ],
+   "vids": []
+  }
+ ],
+ "slug": "los-angeles",
+ "updated": "2026-09-30"
+}

@@ -1,0 +1,65 @@
+{
+ "updated": "2026-09-30",
+ "cities": [
+  {
+   "slug": "prague",
+   "name": "Prague",
+   "country": "Czechia",
+   "count": 15
+  },
+  {
+   "slug": "tel-aviv",
+   "name": "Tel Aviv",
+   "country": "Israel",
+   "count": 20
+  },
+  {
+   "slug": "budapest",
+   "name": "Budapest",
+   "country": "Hungary",
+   "count": 7
+  },
+  {
+   "slug": "london",
+   "name": "London",
+   "country": "UK",
+   "count": 12
+  },
+  {
+   "slug": "paris",
+   "name": "Paris",
+   "country": "France",
+   "count": 13
+  },
+  {
+   "slug": "lisbon",
+   "name": "Lisbon",
+   "country": "Portugal",
+   "count": 7
+  },
+  {
+   "slug": "new-york",
+   "name": "New York",
+   "country": "USA",
+   "count": 11
+  },
+  {
+   "slug": "los-angeles",
+   "name": "Los Angeles",
+   "country": "USA",
+   "count": 12
+  },
+  {
+   "slug": "bangkok",
+   "name": "Bangkok",
+   "country": "Thailand",
+   "count": 10
+  },
+  {
+   "slug": "seoul",
+   "name": "Seoul",
+   "country": "South Korea",
+   "count": 3
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "name": "London",
+ "country": "UK",
+ "currency": "GBP",
+ "tz": "Europe/London",
+ "note": "",
+ "sources": [
+  [
+   "fabric",
+   "https://www.fabriclondon.com/whats-on"
+  ],
+  [
+   "Village Underground",
+   "https://villageunderground.co.uk/events/"
+  ],
+  [
+   "Songkick Drumsheds",
+   "https://www.songkick.com/venues/4348032-drumsheds/calendar"
+  ]
+ ],
+ "events": [
+  {
+   "id": "imanu",
+   "date": "2026-10-02",
+   "time": "23:00",
+   "title": "IMANU",
+   "genre": "Drum & Bass",
+   "score": 4.2,
+   "venue": "Village Underground",
+   "area": "Shoreditch",
+   "addr": "Village Underground, 54 Holywell Lane",
+   "lineup": "IMANU, ring noord, anu, latesleeper",
+   "desc": "Dutch producer mixing halftime, techno and garage under Shoreditch's brick arches.",
+   "link": "https://villageunderground.co.uk/events/imanu-ring-noord-anu-latesleeper-2nd-oct-village-underground-london-tickets-eoxyb2/",
+   "price": "From £24.21",
+   "artists": [
+    "IMANU"
+   ],
+   "vids": []
+  },
+  {
+   "id": "fabriclive",
+   "date": "2026-10-02",
+   "time": "23:00",
+   "title": "FABRICLIVE: Yung Singh, O'Flynn",
+   "genre": "Bass",
+   "score": 4.0,
+   "venue": "fabric",
+   "area": "Farringdon",
+   "addr": "fabric, 77a Charterhouse St",
+   "lineup": "Yung Singh, O'Flynn (all night long), KOLLIN, Ma Sha, Percy Mingle + more",
+   "desc": "Bassline, garage and Bhangra-flavoured club music at London's most famous club.",
+   "link": "https://www.fabriclondon.com/event/fabriclive-yung-singh-oflynn-kollin-more-tba",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Yung Singh"
+   ],
+   "vids": []
+  },
+  {
+   "id": "maxcooper",
+   "date": "2026-10-03",
+   "time": "23:00",
+   "title": "Max Cooper all night long, DVS1",
+   "genre": "Techno",
+   "score": 4.6,
+   "venue": "fabric",
+   "area": "Farringdon",
+   "addr": "fabric, 77a Charterhouse St",
+   "lineup": "Max Cooper (all night long), DVS1, Dasha Rush, Jasmín, Pattn, Redfreya, Moritz",
+   "desc": "A rare all-night set from Max Cooper plus DVS1 in Room One. The techno night of the fortnight.",
+   "link": "https://www.fabriclondon.com/event/fabric-max-cooper-all-night-long-dvs1-dasha-rush-jasmin-pattn-redfreya-moritz",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Max Cooper",
+    "DVS1"
+   ],
+   "vids": []
+  },
+  {
+   "id": "bushbaby",
+   "date": "2026-10-03",
+   "time": "23:00",
+   "title": "Bushbaby all night long",
+   "genre": "House",
+   "score": 3.9,
+   "venue": "Village Underground",
+   "area": "Shoreditch",
+   "addr": "Village Underground, 54 Holywell Lane",
+   "lineup": "Bushbaby",
+   "desc": "High-energy UK garage, house and rave. Cheapest good night out on the list.",
+   "link": "https://villageunderground.co.uk/events/bushbaby-all-night-long-uk-tour-3rd-oct-village-underground-london-tickets-eomeaw/",
+   "price": "From £11",
+   "artists": [
+    "Bushbaby"
+   ],
+   "vids": []
+  },
+  {
+   "id": "maxdean",
+   "date": "2026-10-03",
+   "time": "22:00",
+   "title": "Max Dean",
+   "genre": "House",
+   "score": 4.0,
+   "venue": "Drumsheds",
+   "area": "Tottenham",
+   "addr": "Drumsheds, Meridian Water",
+   "lineup": "Max Dean",
+   "desc": "Tech house favourite in London's biggest warehouse club.",
+   "link": "https://www.songkick.com/concerts/43310335-max-dean-at-drumsheds",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Max Dean"
+   ],
+   "vids": []
+  },
+  {
+   "id": "caya",
+   "date": "2026-10-04",
+   "time": "16:00",
+   "title": "CAYA by fabric: Way Out",
+   "genre": "Techno",
+   "score": 3.5,
+   "venue": "fabric",
+   "area": "Farringdon",
+   "addr": "fabric, 77a Charterhouse St",
+   "lineup": "BRADII, Savio Testa, Verso, Kesia, Olimus B2B Maurillexx",
+   "desc": "Sunday session at fabric with up-and-coming techno DJs.",
+   "link": "https://www.fabriclondon.com/event/caya-by-fabric-way-out---bradii-savio-testa-verso-kesia-olimus-b2b-maurillexx",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "drumsheds-edm",
+   "date": "2026-10-09",
+   "time": "20:00",
+   "title": "Dimitri Vegas, Nicky Romero, R3HAB, Krewella",
+   "genre": "EDM",
+   "score": 3.8,
+   "venue": "Drumsheds",
+   "area": "Tottenham",
+   "addr": "Drumsheds, Meridian Water",
+   "lineup": "Ben Nicky, Dimitri Vegas, Krewella, Nicky Romero, R3HAB, Amy Wiles, P.O.U",
+   "desc": "Festival-sized EDM and trance night with big-room headliners.",
+   "link": "https://www.songkick.com/concerts/43255669-ben-nicky-at-drumsheds",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Dimitri Vegas",
+    "Nicky Romero"
+   ],
+   "vids": []
+  },
+  {
+   "id": "fasterhorses",
+   "date": "2026-10-09",
+   "time": "23:00",
+   "title": "Faster Horses",
+   "genre": "House",
+   "score": 3.7,
+   "venue": "Village Underground",
+   "area": "Shoreditch",
+   "addr": "Village Underground, 54 Holywell Lane",
+   "lineup": "Faster Horses",
+   "desc": "Hard house, trance and rave energy, dancefloor first.",
+   "link": "https://villageunderground.co.uk/events/faster-horses-9th-oct-village-underground-london-tickets-q2pqrp/",
+   "price": "From £16.85",
+   "artists": [
+    "Faster Horses"
+   ],
+   "vids": []
+  },
+  {
+   "id": "locklead",
+   "date": "2026-10-09",
+   "time": "23:00",
+   "title": "Locklead, bullet tooth, Burnski",
+   "genre": "House",
+   "score": 3.8,
+   "venue": "fabric",
+   "area": "Farringdon",
+   "addr": "fabric, 77a Charterhouse St",
+   "lineup": "Locklead, bullet tooth, A For Alpha, Papa Nugs, Burnski, Busted + more",
+   "desc": "Groovy minimal and tech house across fabric's rooms.",
+   "link": "https://www.fabriclondon.com/event/fabric-locklead-bullet-tooth-a-for-alpha-papa-nugs-burnski-more-tba",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Locklead"
+   ],
+   "vids": []
+  },
+  {
+   "id": "kink",
+   "date": "2026-10-10",
+   "time": "23:00",
+   "title": "Aaron Hibell, KiNK (live), Slam",
+   "genre": "Techno",
+   "score": 4.3,
+   "venue": "fabric",
+   "area": "Farringdon",
+   "addr": "fabric, 77a Charterhouse St",
+   "lineup": "Aaron Hibell, KiNK (live), Slam, The Tunegirl (live), Sanaz, Kotiēr, Kwartz",
+   "desc": "KiNK's famous live show plus Glasgow techno veterans Slam.",
+   "link": "https://www.fabriclondon.com/event/aaron-hibell-kink-live-slam-the-tunegirl-live-sanaz-kotier-kwartz",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "KiNK",
+    "Slam"
+   ],
+   "vids": []
+  },
+  {
+   "id": "youngmarco",
+   "date": "2026-10-10",
+   "time": "23:00",
+   "title": "Young Marco & Elkka",
+   "genre": "House",
+   "score": 4.1,
+   "venue": "Village Underground",
+   "area": "Shoreditch",
+   "addr": "Village Underground, 54 Holywell Lane",
+   "lineup": "Young Marco, Elkka",
+   "desc": "Joyful, eclectic house and disco from two great selectors.",
+   "link": "https://villageunderground.co.uk/events/young-marco-elkka-10th-oct-village-underground-london-tickets-6doreb/",
+   "price": "From £29.87",
+   "artists": [
+    "Young Marco",
+    "Elkka"
+   ],
+   "vids": []
+  },
+  {
+   "id": "drumsheds-indie",
+   "date": "2026-10-10",
+   "time": "18:00",
+   "title": "Friendly Fires, 2manydjs, Myd, Leftfield (DJ)",
+   "genre": "Festival",
+   "score": 4.2,
+   "venue": "Drumsheds",
+   "area": "Tottenham",
+   "addr": "Drumsheds, Meridian Water",
+   "lineup": "New Young Pony Club, Friendly Fires, 2manydjs, Simian Mobile Disco (DJ), Myd, Leftfield (DJ) + more",
+   "desc": "Indie-dance all-dayer across the Drumsheds halls. Big nostalgia value.",
+   "link": "https://www.songkick.com/concerts/43331677-new-young-pony-club-at-drumsheds",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "2manydjs",
+    "Friendly Fires"
+   ],
+   "vids": []
+  }
+ ],
+ "slug": "london",
+ "updated": "2026-09-30"
+}

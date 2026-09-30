@@ -1,0 +1,93 @@
+{
+  "_about": "Listing sites per city, tested 30 Sep 2026 by fetching them as plain HTML (no browser). 'works' = returned readable event data; 'partial' = some data, missing prices or later dates; 'blocked' = JS-only, 403 or robots-blocked. Use 'works' sources first when refreshing data/<city>.json.",
+  "global": {
+    "works": [
+      {"name": "Songkick metro pages", "url": "https://www.songkick.com/metro-areas/{id}-{city}/{month}-{year}", "note": "Dates, artists, venues. No prices. Good for concerts and big DJ shows."},
+      {"name": "Bandsintown city pages", "url": "https://www.bandsintown.com/c/{city-country}", "note": "Dates and artists, weak on club nights."},
+      {"name": "Shotgun city/genre pages", "url": "https://shotgun.live/en/cities/{city}/{techno|house}", "note": "Dates + prices. Good for Paris, Lisbon, New York. Only shows the first ~5 days."},
+      {"name": "Shotgun venue pages", "url": "https://shotgun.live/en/venues/{venue-slug}", "note": "Full venue program with prices (e.g. rex-club)."},
+      {"name": "Mood (musicofourdesire)", "url": "https://events.musicofourdesire.com/venue/{venue}", "note": "Mirrors RA events with readable dates and lineups."}
+    ],
+    "blocked": [
+      {"name": "Resident Advisor (ra.co)", "note": "JS-rendered, returns only navigation. Use RA event URLs as ticket links, but read data elsewhere."},
+      {"name": "DICE", "note": "403"},
+      {"name": "GoOut ticket pages", "note": "Prices load with JS. GoOut event pages (goout.net/{lang}/{slug}/{id}/) DO show price ranges."}
+    ]
+  },
+  "cities": {
+    "prague": {
+      "works": [
+        {"name": "GoOut event pages", "url": "https://goout.net/cs/{slug}/{id}/", "note": "Date, time, price range in CZK."},
+        {"name": "Cross Club program", "url": "https://www.crossclub.cz/cs/program/", "note": "Full lineups, links to GoOut."},
+        {"name": "Ankali upcoming", "url": "https://anka.li/upcoming-events/", "note": "Event pages list presale/door prices."},
+        {"name": "Fuchs2 shows", "url": "https://www.fuchs2.cz/shows", "note": "Program + event pages; prices on RA."},
+        {"name": "EPIC Prague program", "url": "https://www.epicprague.com/en/", "note": "Prices on event page."}
+      ],
+      "blocked": ["roxy.cz (timeout)", "GoOut venue lists (JS)"]
+    },
+    "tel-aviv": {
+      "works": [
+        {"name": "Airdrop Tel Aviv", "url": "https://airdrop.co.il/tel-aviv", "note": "Best overview; event pages give lineup, 'from ₪' price and ticket link."},
+        {"name": "Secret Tel Aviv parties", "url": "https://www.secrettelaviv.com/tickets/categories/parties", "note": "English, lineups, links to the real ticket site."},
+        {"name": "Zygo / Hangar 11 / Barby / GoShow event pages", "note": "Prices readable."}
+      ],
+      "blocked": ["haoman17.com event pages (robots)", "eventer.co.il (robots)", "go-out.co event pages (JS, no price)"]
+    },
+    "budapest": {
+      "works": [
+        {"name": "Akvárium Klub events", "url": "https://akvariumklub.hu/en/events/", "note": "Full program and lineups; prices only at checkout."},
+        {"name": "Songkick Budapest electronic", "url": "https://www.songkick.com/metro-areas/29047-hungary-budapest/genre/electronic"}
+      ],
+      "todo": ["Lärm and Toldi program (only on RA/Facebook)", "A38 Ship program page"]
+    },
+    "london": {
+      "works": [
+        {"name": "fabric what's on", "url": "https://www.fabriclondon.com/whats-on"},
+        {"name": "Village Underground events", "url": "https://villageunderground.co.uk/events/", "note": "Event pages show 'From £' prices."},
+        {"name": "Songkick Drumsheds calendar", "url": "https://www.songkick.com/venues/4348032-drumsheds/calendar"}
+      ],
+      "blocked": ["seetickets.com (403)", "skiddle clubbing list (404)", "ents24 (JS)"]
+    },
+    "paris": {
+      "works": [
+        {"name": "Shotgun Rex Club", "url": "https://shotgun.live/en/venues/rex-club", "note": "Full program with € prices."},
+        {"name": "Kilomètre25", "url": "https://www.kilometre25.fr/", "note": "Program with Shotgun links and prices."},
+        {"name": "Agenda Culturel electro", "url": "https://75.agendaculturel.fr/concert/electro/", "note": "Whole city, with € prices. Best single source."}
+      ]
+    },
+    "lisbon": {
+      "works": [
+        {"name": "Shotgun Lisbon", "url": "https://shotgun.live/en/cities/lisbon", "note": "Prices, but only first ~5 days visible."}
+      ],
+      "blocked": ["luxfragil.com (JS)", "xceed.me (JS)", "DICE Lux Frágil (no data)"],
+      "todo": ["Find a source for days 6–14 (try Shotgun venue pages for Rūmu, Ministerium, Lux)"]
+    },
+    "new-york": {
+      "works": [
+        {"name": "Shotgun NYC house/techno", "url": "https://shotgun.live/en/cities/new-york/house"},
+        {"name": "Elsewhere events", "url": "https://www.elsewhere.club/events"},
+        {"name": "Good Room", "url": "https://www.goodroombk.com/", "note": "Lists nights with RA links."}
+      ],
+      "blocked": ["19hz has no NYC page", "knockdown.center (403)", "avant-gardner.com (stale)", "nowadays.nyc (links to RA only)"]
+    },
+    "los-angeles": {
+      "works": [
+        {"name": "19hz Los Angeles", "url": "https://19hz.info/eventlisting_LosAngeles.php", "note": "Excellent: every electronic event with price, age and ticket link."}
+      ]
+    },
+    "bangkok": {
+      "works": [
+        {"name": "Bangkok Nights guide", "url": "https://bangkok-nights.com/guides/best-techno-clubs-bangkok-2026", "note": "Upcoming nights per club with ฿ ranges; only ~5 days ahead."}
+      ],
+      "blocked": ["bangkok-nights.com/events/{day} (JS)", "mustachebangkok.com (timeout)"]
+    },
+    "seoul": {
+      "works": [
+        {"name": "Songkick Seoul October", "url": "https://tickets.songkick.com/metro-areas/30784-korea-republic-of-seoul/october-2026"},
+        {"name": "Bandsintown Seoul", "url": "https://www.bandsintown.com/c/seoul-south-korea"},
+        {"name": "Fever Seoul night clubs", "url": "https://feverup.com/en/seoul/night-clubs"}
+      ],
+      "todo": ["Seoul clubs (Faust, Cakeshop, Volnost) post on Instagram and RA only; needs a search-grounded model"]
+    }
+  }
+}

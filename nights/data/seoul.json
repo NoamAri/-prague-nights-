@@ -1,0 +1,82 @@
+{
+ "name": "Seoul",
+ "country": "South Korea",
+ "currency": "KRW",
+ "tz": "Asia/Seoul",
+ "note": "Seoul club nights are mostly announced on Instagram, so coverage is thin. EDC Korea is in Incheon, about an hour from central Seoul.",
+ "sources": [
+  [
+   "Songkick Seoul",
+   "https://tickets.songkick.com/metro-areas/30784-korea-republic-of-seoul/october-2026"
+  ],
+  [
+   "EDC Korea",
+   "https://korea.edc.com/en/tickets/"
+  ],
+  [
+   "Fever Seoul",
+   "https://feverup.com/en/seoul/night-clubs"
+  ]
+ ],
+ "events": [
+  {
+   "id": "layton",
+   "date": "2026-10-01",
+   "time": "22:00",
+   "title": "Layton Giordani",
+   "genre": "Techno",
+   "score": 4.2,
+   "venue": "Crest72",
+   "area": "Seoul",
+   "addr": "Crest72, Seoul",
+   "lineup": "Layton Giordani",
+   "desc": "Drumcode's New York techno star plays a Seoul club night.",
+   "link": "https://tickets.songkick.com/concerts/43382908-layton-giordani-at-crest72",
+   "price": "Not listed publicly · shown at checkout",
+   "artists": [
+    "Layton Giordani"
+   ],
+   "vids": []
+  },
+  {
+   "id": "arga",
+   "date": "2026-10-02",
+   "time": "22:00",
+   "title": "Song of Songs",
+   "genre": "Club night",
+   "score": 3.4,
+   "venue": "ARGA",
+   "area": "Seoul",
+   "addr": "ARGA Seoul",
+   "lineup": "ARGA residents (weekly, from 2 Oct)",
+   "desc": "Weekly club night with a well-rated crowd and a cheap cover.",
+   "link": "https://feverup.com/m/150103/en",
+   "price": "₩10,000",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "edc",
+   "date": "2026-10-03",
+   "time": "14:00",
+   "title": "EDC Korea",
+   "genre": "EDM",
+   "score": 4.5,
+   "venue": "Inspire Entertainment Resort",
+   "area": "Incheon",
+   "addr": "Inspire Entertainment Resort, Incheon",
+   "lineup": "Tiësto, DJ Snake, Alok, Fisher, R3HAB, ILLENIUM, W&W, Vini Vici, Subtronics + more (3–4 Oct)",
+   "desc": "Insomniac's Electric Daisy Carnival: two days of giant stages and big-name DJs.",
+   "link": "https://korea.edc.com/en/tickets/",
+   "price": "₩149,000/day · ₩270,000 2-day GA",
+   "artists": [
+    "Fisher",
+    "Tiësto"
+   ],
+   "vids": [],
+   "end": "2026-10-04"
+  }
+ ],
+ "slug": "seoul",
+ "updated": "2026-09-30"
+}

@@ -1,0 +1,264 @@
+{
+ "name": "Paris",
+ "country": "France",
+ "currency": "EUR",
+ "tz": "Europe/Paris",
+ "note": "",
+ "sources": [
+  [
+   "Shotgun Rex Club",
+   "https://shotgun.live/en/venues/rex-club"
+  ],
+  [
+   "Kilomètre25",
+   "https://www.kilometre25.fr/"
+  ],
+  [
+   "Agenda Culturel electro",
+   "https://75.agendaculturel.fr/concert/electro/"
+  ]
+ ],
+ "events": [
+  {
+   "id": "onesh",
+   "date": "2026-09-30",
+   "time": "23:59",
+   "title": "Onesh: Apocalipse all night long",
+   "genre": "Techno",
+   "score": 3.6,
+   "venue": "Rex Club",
+   "area": "Grands Boulevards",
+   "addr": "Rex Club, 5 Bd Poissonnière",
+   "lineup": "Onesh (all night long) & guests",
+   "desc": "Midweek all-nighter at Paris's legendary techno basement.",
+   "link": "https://shotgun.live/en/events/onesh-apocalispe-all-night-long",
+   "price": "€10.80",
+   "artists": [
+    "Onesh"
+   ],
+   "vids": []
+  },
+  {
+   "id": "joris",
+   "date": "2026-10-01",
+   "time": "23:59",
+   "title": "Joris Delacroix all night long",
+   "genre": "Melodic",
+   "score": 4.0,
+   "venue": "Rex Club",
+   "area": "Grands Boulevards",
+   "addr": "Rex Club, 5 Bd Poissonnière",
+   "lineup": "Joris Delacroix",
+   "desc": "Melodic French house from a Rex Club favourite, all night.",
+   "link": "https://shotgun.live/en/events/rex-club-presents-joris-delacroix-anl26",
+   "price": "€17.80",
+   "artists": [
+    "Joris Delacroix"
+   ],
+   "vids": []
+  },
+  {
+   "id": "damswindle",
+   "date": "2026-10-02",
+   "time": "23:59",
+   "title": "Dam Swindle all night long",
+   "genre": "House",
+   "score": 4.2,
+   "venue": "Rex Club",
+   "area": "Grands Boulevards",
+   "addr": "Rex Club, 5 Bd Poissonnière",
+   "lineup": "Dam Swindle",
+   "desc": "The Dutch duo play warm, funky house and disco for the whole night.",
+   "link": "https://shotgun.live/en/events/rex-club-presents-dam-swindle-all-night-long",
+   "price": "€15.80",
+   "artists": [
+    "Dam Swindle"
+   ],
+   "vids": []
+  },
+  {
+   "id": "erolalkan",
+   "date": "2026-10-02",
+   "time": "23:00",
+   "title": "Hard Fist × La Culottée: Erol Alkan",
+   "genre": "House",
+   "score": 4.0,
+   "venue": "Virage",
+   "area": "Porte de la Villette",
+   "addr": "Virage Paris",
+   "lineup": "Erol Alkan, Alex Wilcox + more",
+   "desc": "London indie-dance legend Erol Alkan at one of Paris's newer clubs.",
+   "link": "https://75.agendaculturel.fr/concert/hard-fist-x-la-culottee-erol-alkan-alex-wilcox-more.html",
+   "price": "€11–22",
+   "artists": [
+    "Erol Alkan"
+   ],
+   "vids": []
+  },
+  {
+   "id": "goddess",
+   "date": "2026-10-02",
+   "time": "23:00",
+   "title": "Goddess Rave",
+   "genre": "Techno",
+   "score": 3.8,
+   "venue": "Kilomètre25",
+   "area": "Porte de la Villette",
+   "addr": "Kilomètre25, under the Périphérique",
+   "lineup": "URUMI, A5KM, ESILISE, Pauline D7, Noiza",
+   "desc": "Hard techno rave in the open-air venue under the ring road.",
+   "link": "https://shotgun.live/events/godsss-rave-urumi-a5km-esilise-pauline-d7-kilometre25",
+   "price": "From €9",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "slsafter",
+   "date": "2026-10-03",
+   "time": "23:59",
+   "title": "SLS Paris afterparty: Busy P, Andy4000",
+   "genre": "House",
+   "score": 3.8,
+   "venue": "Rex Club",
+   "area": "Grands Boulevards",
+   "addr": "Rex Club, 5 Bd Poissonnière",
+   "lineup": "Andy4000, Busy P, DJ Swisha & more",
+   "desc": "Ed Banger founder Busy P leads an afterparty with French touch and club rap.",
+   "link": "https://shotgun.live/en/events/afterparty-sls-paris-2026-andy-4000-busy-p-dj-swisha-more",
+   "price": "€17.80",
+   "artists": [
+    "Busy P"
+   ],
+   "vids": []
+  },
+  {
+   "id": "km25-2359",
+   "date": "2026-10-03",
+   "time": "23:59",
+   "title": "23:59: Eargasm God, DBBD",
+   "genre": "Techno",
+   "score": 3.7,
+   "venue": "Kilomètre25",
+   "area": "Porte de la Villette",
+   "addr": "Kilomètre25, under the Périphérique",
+   "lineup": "Eargasm God, DBBD, Paralich, Area Øne & more",
+   "desc": "Fast, dark techno until the morning at KM25.",
+   "link": "https://shotgun.live/events/2359-eargasm-god-dbbd-paralich-area-one-kilometre25",
+   "price": "From €8",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "apparat",
+   "date": "2026-10-09",
+   "time": "20:00",
+   "title": "Apparat",
+   "genre": "Melodic",
+   "score": 4.3,
+   "venue": "Élysée Montmartre",
+   "area": "Pigalle",
+   "addr": "Élysée Montmartre, 72 Bd Rochechouart",
+   "lineup": "Apparat (live)",
+   "desc": "The Berlin producer's emotional live electronic show. More concert than club.",
+   "link": "https://75.agendaculturel.fr/concert/apparat.html",
+   "price": "€53",
+   "artists": [
+    "Apparat"
+   ],
+   "vids": []
+  },
+  {
+   "id": "mamies",
+   "date": "2026-10-09",
+   "time": "23:59",
+   "title": "The Last Dance: Mamie's all night long",
+   "genre": "House",
+   "score": 3.8,
+   "venue": "Rex Club",
+   "area": "Grands Boulevards",
+   "addr": "Rex Club, 5 Bd Poissonnière",
+   "lineup": "Mamie's",
+   "desc": "Parisian disco and house duo, all night at the Rex.",
+   "link": "https://shotgun.live/en/events/the-last-dance-residency-mamie-s-all-night-long",
+   "price": "€15.80",
+   "artists": [
+    "Mamie's"
+   ],
+   "vids": []
+  },
+  {
+   "id": "samfeldt",
+   "date": "2026-10-09",
+   "time": "23:00",
+   "title": "Sam Feldt",
+   "genre": "House",
+   "score": 3.7,
+   "venue": "Central Chapelle",
+   "area": "Paris",
+   "addr": "Central Chapelle",
+   "lineup": "Sam Feldt",
+   "desc": "Feel-good Dutch house for a crowd-pleasing Friday.",
+   "link": "https://75.agendaculturel.fr/concert/sam-feldt.html",
+   "price": "€27",
+   "artists": [
+    "Sam Feldt"
+   ],
+   "vids": []
+  },
+  {
+   "id": "oxyl",
+   "date": "2026-10-09",
+   "time": "23:00",
+   "title": "ØXYL",
+   "genre": "Techno",
+   "score": 3.7,
+   "venue": "Kilomètre25",
+   "area": "Porte de la Villette",
+   "addr": "Kilomètre25, under the Périphérique",
+   "lineup": "BYORN, TESTPRESS, NYRA, SIKOTI, MEYEM & more",
+   "desc": "Techno rave under the ring road.",
+   "link": "https://shotgun.live/events/oxyl-18-km-25",
+   "price": "From €8",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "fluid",
+   "date": "2026-10-10",
+   "time": "23:00",
+   "title": "Fluid × Swim Club",
+   "genre": "House",
+   "score": 3.7,
+   "venue": "Virage",
+   "area": "Porte de la Villette",
+   "addr": "Virage Paris",
+   "lineup": "Kim Swim B2B Milion, Bella Claxton, Dr G",
+   "desc": "Queer-friendly house party with a warm crowd.",
+   "link": "https://75.agendaculturel.fr/concert/fluid-x-swim-club-kim-swim-b2b-milion-bella-claxton-dr-g.html",
+   "price": "€14–22",
+   "artists": [],
+   "vids": []
+  },
+  {
+   "id": "autechre",
+   "date": "2026-10-14",
+   "time": "20:00",
+   "title": "Autechre",
+   "genre": "Techno",
+   "score": 4.4,
+   "venue": "Bataclan",
+   "area": "Oberkampf",
+   "addr": "Le Bataclan, 50 Bd Voltaire",
+   "lineup": "Autechre",
+   "desc": "The Warp legends play their famously dark, pitch-black live show. For the adventurous.",
+   "link": "https://75.agendaculturel.fr/concert/autechre.html",
+   "price": "€40–45",
+   "artists": [
+    "Autechre"
+   ],
+   "vids": []
+  }
+ ],
+ "slug": "paris",
+ "updated": "2026-09-30"
+}
