@@ -29,19 +29,16 @@
    "venue": "Jolene",
    "area": "Brooklyn",
    "addr": "Jolene, Brooklyn",
-   "lineup": "Da Punks",
+   "lineup": "Just Martin, TƎO, Quitián · visuals by Dani Ropi & Charitypie",
    "desc": "Midweek techno and house in a small Brooklyn club.",
    "link": "https://shotgun.live/en/events/da-punks-jolene",
    "price": "$25",
    "artists": [
-    "Da Punks"
+    "Just Martin",
+    "TƎO",
+    "Quitián"
    ],
-   "vids": [
-    {
-     "id": "DGWL7YI_2rI",
-     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
-    }
-   ],
+   "vids": [],
    "spl": {
     "name": "Techno Bunker",
     "id": "37i9dQZF1DX6J5NfMJS675"
@@ -113,15 +110,19 @@
    "venue": "Brooklyn Roots Collective",
    "area": "Brooklyn",
    "addr": "Brooklyn Roots Collective",
-   "lineup": "Book Club Radio residents and guests (Oct 2–4)",
+   "lineup": "Fri: Machinedrum, Nikki Nair, Soul Summit, Tinzo, Hiroko Yamamura + more · Sat: Mark Farina, Byron the Aquarius, DJ Heather, Jex Opolis, Oona Dahl + more",
    "desc": "Three-day community house and techno festival from the Brooklyn online radio.",
    "link": "https://shotgun.live/en/festivals/bookclubradiofest2",
    "price": "$59.99",
-   "artists": [],
+   "artists": [
+    "Mark Farina",
+    "Machinedrum",
+    "Byron the Aquarius"
+   ],
    "vids": [
     {
-     "id": "42XFNGZrpaQ",
-     "label": "House taster: Chris Stussy, Boiler Room"
+     "id": "knxpzY3Ga2c",
+     "label": "Mark Farina (Sat 3 Oct) – house set in The Lab NYC"
     }
    ],
    "end": "2026-10-04",
@@ -195,15 +196,18 @@
    "venue": "Good Room",
    "area": "Greenpoint",
    "addr": "Good Room, 98 Meserole Ave, Brooklyn",
-   "lineup": "Resident Advisor 25th anniversary lineup",
+   "lineup": "Nick León, Galcher Lustwerk, adobeprincess, Stacey Hotwaxx Hale, Kilopatrah Jones, Baalti + special guest",
    "desc": "Resident Advisor celebrates 25 years with a New York party.",
    "link": "https://ra.co/events/2497459",
    "price": "Not listed publicly · shown at checkout",
-   "artists": [],
+   "artists": [
+    "Galcher Lustwerk",
+    "Nick León"
+   ],
    "vids": [
     {
-     "id": "DGWL7YI_2rI",
-     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+     "id": "jM9nANUER7I",
+     "label": "Galcher Lustwerk – HÖR Berlin"
     }
    ],
    "spl": {
@@ -221,15 +225,15 @@
    "venue": "Industry City",
    "area": "Sunset Park",
    "addr": "Industry City, Brooklyn",
-   "lineup": "Berlin-style techno lineup",
+   "lineup": "Hosted by ZERO, House of Yes, Garbicz Festival and Kater Berlin with invited guests",
    "desc": "Berlin-inspired techno party in a huge Sunset Park warehouse. Waiting list only right now.",
    "link": "https://shotgun.live/en/events/berlin-beyond-year3",
    "price": "Waiting list",
    "artists": [],
    "vids": [
     {
-     "id": "DGWL7YI_2rI",
-     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+     "id": "II6ytHbCY4w",
+     "label": "Garbicz Festival, co-host of Berlin Beyond"
     }
    ],
    "spl": {

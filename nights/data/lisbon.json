@@ -25,15 +25,18 @@
    "venue": "Rūmu",
    "area": "Cais do Sodré",
    "addr": "Rūmu Lisboa",
-   "lineup": "Carpet Club",
+   "lineup": "Jorge Caiado & Boyá (Morevi Records)",
    "desc": "Cheap Wednesday house night in a small, stylish club.",
    "link": "https://shotgun.live/en/events/room-wednesdays-curated-by-carpet-club-83",
    "price": "€5",
-   "artists": [],
+   "artists": [
+    "Jorge Caiado",
+    "Boyá"
+   ],
    "vids": [
     {
-     "id": "42XFNGZrpaQ",
-     "label": "House taster: Chris Stussy, Boiler Room"
+     "id": "Hn9YnK96Ji8",
+     "label": "Jorge Caiado – themuddshow x Carpet Club"
     }
    ],
    "spl": {
@@ -51,17 +54,15 @@
    "venue": "Lisboa Rio Club",
    "area": "Lisbon",
    "addr": "Lisboa Rio Club",
-   "lineup": "Mothership residents",
+   "lineup": "A-Mush, Fabinii",
    "desc": "Long-running psytrance party by the river, with international guests like Mad Tribe in past editions.",
    "link": "https://shotgun.live/en/events/mothership-30-sep",
    "price": "€10",
-   "artists": [],
-   "vids": [
-    {
-     "id": "b5FzCQWSekQ",
-     "label": "Mad Tribe live in Portugal (a past Mothership guest)"
-    }
+   "artists": [
+    "A-Mush",
+    "Fabinii"
    ],
+   "vids": [],
    "spl": {
     "name": "Psytrance 2026",
     "id": "0iJEh2BsvSw8V3lDTkiUK7"
@@ -187,20 +188,22 @@
    "venue": "KØMPLEX",
    "area": "Lisbon",
    "addr": "KØMPLEX Lisbon",
-   "lineup": "Baile do Tuim crew",
+   "lineup": "DJ Lorrany, Just Henrick, Technofoguete, Alesaintz",
    "desc": "Brazilian baile funk party. Loud, sweaty and fun.",
    "link": "https://shotgun.live/en/events/baile-do-tuim-batendo-bolo-2-0-bateu-cresceu",
    "price": "€12",
-   "artists": [],
+   "artists": [
+    "DJ Lorrany",
+    "Technofoguete"
+   ],
    "vids": [
     {
-     "id": "5md3JGa-nJY",
-     "label": "Baile funk taster"
+     "id": "hfD34iyd33U",
+     "label": "DJ Lorrany – Boiler Room São Paulo"
     }
    ],
-   "spl": {
-    "name": "Baile Funk Radio",
-    "id": "37i9dQZF1E4xkcAJ2c2Z1Y"
+   "sp": {
+    "DJ Lorrany": "0jsv3PfLN8nXPH7Gmnwa5z"
    }
   }
  ],

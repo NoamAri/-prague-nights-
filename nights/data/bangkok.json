@@ -25,11 +25,14 @@
    "desc": "Small, music-first bar with deep house and techno.",
    "link": "https://bangkok-nights.com/event/bar-temp-foerderband-x-dy-0f5ts6",
    "price": "~฿300–700",
-   "artists": [],
+   "artists": [
+    "Foerderband",
+    "Dy"
+   ],
    "vids": [
     {
-     "id": "42XFNGZrpaQ",
-     "label": "House taster: Chris Stussy, Boiler Room"
+     "id": "78dHZ2TJe0s",
+     "label": "Foerderband – techno DJ set"
     }
    ],
    "spl": {
@@ -52,12 +55,7 @@
    "link": "https://bangkok-nights.com/event/bar-temp-lush-division-76adm8",
    "price": "~฿300–700",
    "artists": [],
-   "vids": [
-    {
-     "id": "42XFNGZrpaQ",
-     "label": "House taster: Chris Stussy, Boiler Room"
-    }
-   ],
+   "vids": [],
    "spl": {
     "name": "Housewerk",
     "id": "37i9dQZF1DXa8NOEUWPn9W"
@@ -80,8 +78,8 @@
    "artists": [],
    "vids": [
     {
-     "id": "DGWL7YI_2rI",
-     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+     "id": "5MnkAfbS2WA",
+     "label": "Inside Horn, Bangkok"
     }
    ],
    "spl": {
@@ -136,8 +134,8 @@
    ],
    "vids": [
     {
-     "id": "DGWL7YI_2rI",
-     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+     "id": "wDcyYCBCNXo",
+     "label": "Xiorro – Boiler Room New York"
     }
    ],
    "spl": {
@@ -160,12 +158,7 @@
    "link": "https://bangkok-nights.com/event/elsewhere-delirium-031mvo",
    "price": "฿400–600",
    "artists": [],
-   "vids": [
-    {
-     "id": "42XFNGZrpaQ",
-     "label": "House taster: Chris Stussy, Boiler Room"
-    }
-   ],
+   "vids": [],
    "spl": {
     "name": "Housewerk",
     "id": "37i9dQZF1DXa8NOEUWPn9W"
@@ -242,8 +235,8 @@
    "artists": [],
    "vids": [
     {
-     "id": "DGWL7YI_2rI",
-     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+     "id": "5MnkAfbS2WA",
+     "label": "Inside Horn, Bangkok"
     }
    ],
    "spl": {
@@ -266,12 +259,7 @@
    "link": "https://bangkok-nights.com/event/bar-temp-afrorave-and-friends-bar-temp-takeover-gandg0",
    "price": "~฿300–700",
    "artists": [],
-   "vids": [
-    {
-     "id": "9JtTbx-hYWk",
-     "label": "Afro house taster: Black Coffee, Boiler Room"
-    }
-   ],
+   "vids": [],
    "spl": {
     "name": "Afro House Pulse",
     "id": "37i9dQZF1DX5wO3czN5dc1"

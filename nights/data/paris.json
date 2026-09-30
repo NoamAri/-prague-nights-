@@ -29,7 +29,7 @@
    "venue": "Rex Club",
    "area": "Grands Boulevards",
    "addr": "Rex Club, 5 Bd Poissonnière",
-   "lineup": "Onesh (all night long) & guests",
+   "lineup": "Apocalipse, ZED, KATSY, GHOSTFACE, Ønera, Mido, Arthas Lehner",
    "desc": "Midweek all-nighter at Paris's legendary techno basement.",
    "link": "https://shotgun.live/en/events/onesh-apocalispe-all-night-long",
    "price": "€10.80",
@@ -38,8 +38,8 @@
    ],
    "vids": [
     {
-     "id": "DGWL7YI_2rI",
-     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+     "id": "Q0GxDvgmJPQ",
+     "label": "A techno night at Rex Club"
     }
    ],
    "spl": {
@@ -329,11 +329,14 @@
    "desc": "Queer-friendly house party with a warm crowd.",
    "link": "https://75.agendaculturel.fr/concert/fluid-x-swim-club-kim-swim-b2b-milion-bella-claxton-dr-g.html",
    "price": "€14–22",
-   "artists": [],
+   "artists": [
+    "Bella Claxton",
+    "Kim Swim"
+   ],
    "vids": [
     {
-     "id": "42XFNGZrpaQ",
-     "label": "House taster: Chris Stussy, Boiler Room"
+     "id": "-rtaBRLr0N4",
+     "label": "Bella Claxton – HÖR Berlin"
     }
    ],
    "spl": {
