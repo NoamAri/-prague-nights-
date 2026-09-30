@@ -28,7 +28,15 @@
    "artists": [
     "Kettama"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "JUDUC87VuPU",
+     "label": "Kettama – Boiler Room London"
+    }
+   ],
+   "sp": {
+    "Kettama": "3an9rnsXKPCAMlZgH4A0n4"
+   }
   },
   {
    "id": "zedsdead",
@@ -47,7 +55,15 @@
    "artists": [
     "Zeds Dead"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "WWHInsHJ_EA",
+     "label": "Zeds Dead & Omar LinX – You and I"
+    }
+   ],
+   "sp": {
+    "Zeds Dead": "67qogtRNI0GjUr8PlaG6Zh"
+   }
   },
   {
    "id": "mala",
@@ -66,7 +82,12 @@
    "artists": [
     "Mala"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "Hkgik4edDpY",
+     "label": "Mala – Boiler Room London: Deep Medi"
+    }
+   ]
   },
   {
    "id": "adid",
@@ -85,7 +106,15 @@
    "artists": [
     "Lee Burridge"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "SjMhFZbuSBg",
+     "label": "Lee Burridge – All Day I Dream"
+    }
+   ],
+   "sp": {
+    "Lee Burridge": "0334oJHhRSKJRHKpE9i62h"
+   }
   },
   {
    "id": "klang",
@@ -104,7 +133,15 @@
    "artists": [
     "KlangKuenstler"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "UYQqAB8IL0g",
+     "label": "KlangKuenstler – Coachella 2025"
+    }
+   ],
+   "sp": {
+    "KlangKuenstler": "6H77vD9YyhyxHBTkRpbMBk"
+   }
   },
   {
    "id": "soulection",
@@ -123,7 +160,12 @@
    "artists": [
     "Joe Kay"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "06qcv7gASSE",
+     "label": "Joe Kay – Soulection 15 anniversary set"
+    }
+   ]
   },
   {
    "id": "sidepiece",
@@ -142,7 +184,15 @@
    "artists": [
     "Sidepiece"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "018o0enjGOs",
+     "label": "Diplo & Sidepiece – On My Mind"
+    }
+   ],
+   "sp": {
+    "Sidepiece": "5czbzNZZfWpyFgZyfT3Mkk"
+   }
   },
   {
    "id": "oskar",
@@ -161,7 +211,15 @@
    "artists": [
     "Oskar Med K"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "Ab_E6eg5q7k",
+     "label": "Oskar Med K – Spellbound"
+    }
+   ],
+   "sp": {
+    "Oskar Med K": "28ntgpEkMU9Zm7F3gLDMhZ"
+   }
   },
   {
    "id": "eots",
@@ -181,7 +239,15 @@
     "Empire of the Sun",
     "Polo & Pan"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "eimgRedLkkU",
+     "label": "Empire of the Sun – Walking On A Dream"
+    }
+   ],
+   "sp": {
+    "Empire of the Sun": "67hb7towEyKvt5Z8Bx306c"
+   }
   },
   {
    "id": "tinlicker",
@@ -200,7 +266,15 @@
    "artists": [
     "Tinlicker"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "bj6ZMdkj8OU",
+     "label": "Tinlicker – Release"
+    }
+   ],
+   "sp": {
+    "Tinlicker": "5EmEZjq8eHEC6qFnT63Lza"
+   }
   },
   {
    "id": "deepmedi",
@@ -219,7 +293,12 @@
    "artists": [
     "Mala"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "iE6LnK17jYY",
+     "label": "Mala – Changes (Deep Medi)"
+    }
+   ]
   },
   {
    "id": "bartskils",
@@ -238,7 +317,15 @@
    "artists": [
     "Bart Skils"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "qMPs3mkUQrY",
+     "label": "Bart Skils – Beatport DJ set"
+    }
+   ],
+   "sp": {
+    "Bart Skils": "6iWBjg4b4ll4jLiParnWXT"
+   }
   }
  ],
  "slug": "los-angeles",

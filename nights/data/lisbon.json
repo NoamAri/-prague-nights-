@@ -67,7 +67,15 @@
     "Matthew Dekay",
     "Yokoo"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "qhoOxoGM3mI",
+     "label": "YokoO – Paradise City Festival"
+    }
+   ],
+   "sp": {
+    "Matthew Dekay": "1ehDqG6bFGAurxlAJeQgNT"
+   }
   },
   {
    "id": "riktus",
@@ -122,7 +130,12 @@
    "artists": [
     "Armana Khan"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "PR7uSEB1hN4",
+     "label": "Armana Khan – global club set"
+    }
+   ]
   },
   {
    "id": "tuim",

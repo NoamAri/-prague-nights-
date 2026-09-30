@@ -291,9 +291,12 @@ document.addEventListener("click", e => {
   b.replaceWith(box);
 });
 function artistChips(ev){
-  return ev.artists.map(a => SP_ARTIST[a]
-    ? `<a class="sp spapp" href="spotify:artist:${SP_ARTIST[a]}" data-web="https://open.spotify.com/artist/${SP_ARTIST[a]}">${SPOT}${a}</a>`
-    : `<a class="sp" href="${yt(a)}" target="_blank" rel="noopener">${YTI}${a}</a>`).join("");
+  return ev.artists.map(a => {
+    const id = (ev.sp && ev.sp[a]) || SP_ARTIST[a];
+    return id
+      ? `<a class="sp spapp" href="spotify:artist:${id}" data-web="https://open.spotify.com/artist/${id}">${SPOT}${esc(a)}</a>`
+      : `<a class="sp" href="${yt(a)}" target="_blank" rel="noopener">${YTI}${esc(a)}</a>`;
+  }).join("");
 }
 function card(ev){
   const g = GENRES[ev.genre] || GENRES["Club night"];

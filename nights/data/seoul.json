@@ -36,7 +36,15 @@
    "artists": [
     "Layton Giordani"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "euV8srBycPM",
+     "label": "Layton Giordani – EDC Las Vegas 2026"
+    }
+   ],
+   "sp": {
+    "Layton Giordani": "7mC3RkNNTV6p2j9w4F8Ip4"
+   }
   },
   {
    "id": "arga",
@@ -73,7 +81,12 @@
     "Fisher",
     "Tiësto"
    ],
-   "vids": [],
+   "vids": [
+    {
+     "id": "OQ8JQePSmKk",
+     "label": "EDC Korea 2025 aftermovie"
+    }
+   ],
    "end": "2026-10-04"
   }
  ],

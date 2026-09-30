@@ -36,7 +36,15 @@
    "artists": [
     "IMANU"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "x05HF0b4KPk",
+     "label": "IMANU – A Taste of Hope"
+    }
+   ],
+   "sp": {
+    "IMANU": "5Y7rFm0tiJTVDzGLMzz0W1"
+   }
   },
   {
    "id": "fabriclive",
@@ -55,7 +63,12 @@
    "artists": [
     "Yung Singh"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "AWZ5F00eG_k",
+     "label": "Yung Singh – Boiler Room Melbourne"
+    }
+   ]
   },
   {
    "id": "maxcooper",
@@ -75,7 +88,12 @@
     "Max Cooper",
     "DVS1"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "Kpm1l0HfkV0",
+     "label": "Max Cooper – Resynthesis"
+    }
+   ]
   },
   {
    "id": "bushbaby",
@@ -94,7 +112,15 @@
    "artists": [
     "Bushbaby"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "ekyJv58qB-4",
+     "label": "Bushbaby – DJ set, London"
+    }
+   ],
+   "sp": {
+    "Bushbaby": "6YYg4TQoF8cp50IuM2vU4C"
+   }
   },
   {
    "id": "maxdean",
@@ -113,7 +139,15 @@
    "artists": [
     "Max Dean"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "qExsXeW_rGM",
+     "label": "Max Dean, Luke Dean – Not A Problem"
+    }
+   ],
+   "sp": {
+    "Max Dean": "65TLDWbTJxYASqadmNAxvc"
+   }
   },
   {
    "id": "caya",
@@ -147,10 +181,18 @@
    "link": "https://www.songkick.com/concerts/43255669-ben-nicky-at-drumsheds",
    "price": "Not listed publicly · shown at checkout",
    "artists": [
-    "Dimitri Vegas",
-    "Nicky Romero"
+    "Nicky Romero",
+    "Dimitri Vegas"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "aYtYu1THEVI",
+     "label": "Nicky Romero – Toulouse"
+    }
+   ],
+   "sp": {
+    "Nicky Romero": "5ChF3i92IPZHduM7jN3dpg"
+   }
   },
   {
    "id": "fasterhorses",
@@ -169,7 +211,12 @@
    "artists": [
     "Faster Horses"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "MfQnbHgdDaQ",
+     "label": "Faster Horses – Mixmag Lab London"
+    }
+   ]
   },
   {
    "id": "locklead",
@@ -188,7 +235,15 @@
    "artists": [
     "Locklead"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "kSA3VXtdvR0",
+     "label": "Locklead – Boiler Room London"
+    }
+   ],
+   "sp": {
+    "Locklead": "14X4Rn0s4EuGtizL0l8IIw"
+   }
   },
   {
    "id": "kink",
@@ -208,7 +263,12 @@
     "KiNK",
     "Slam"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "osS2zsW8mLk",
+     "label": "KiNK – Boiler Room live set"
+    }
+   ]
   },
   {
    "id": "youngmarco",
@@ -228,7 +288,15 @@
     "Young Marco",
     "Elkka"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "rViZf2t7BKo",
+     "label": "Young Marco – Boiler Room x Dekmantel"
+    }
+   ],
+   "sp": {
+    "Young Marco": "7zpN81tVvPwlHcJSkSCyRa"
+   }
   },
   {
    "id": "drumsheds-indie",
@@ -245,10 +313,18 @@
    "link": "https://www.songkick.com/concerts/43331677-new-young-pony-club-at-drumsheds",
    "price": "Not listed publicly · shown at checkout",
    "artists": [
-    "2manydjs",
-    "Friendly Fires"
+    "Friendly Fires",
+    "2manydjs"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "fAMP0MBfGhY",
+     "label": "Friendly Fires – Heaven Let Me In"
+    }
+   ],
+   "sp": {
+    "Friendly Fires": "3mZqziCJj4pq3P2VBpmK6p"
+   }
   }
  ],
  "slug": "london",

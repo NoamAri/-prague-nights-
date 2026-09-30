@@ -53,7 +53,10 @@
    "lineup": "Christian Löffler",
    "desc": "Emotional, slow-burning electronica from the German producer, in Prague's most famous club. A classy Friday that builds into proper dancing.",
    "link": "https://goout.net/en/christian-loffler/szknqly/",
-   "date": "2026-10-09"
+   "date": "2026-10-09",
+   "sp": {
+    "Christian Löffler": "3tSvlEzeDnVbQJBTkIA6nO"
+   }
   },
   {
    "id": "wubwub",
@@ -102,7 +105,11 @@
    "lineup": "Main: Blocksberg & Memphys, Fatal DNA, Hydrox, Neurovortex + more · Basement: Whitetrip, Soulkate, Mefficek + more",
    "desc": "Two floors of bass in the steampunk maze of Cross Club. Drum & bass upstairs, UK garage to dubstep in the basement. Cheap ticket, runs until 7am.",
    "link": "https://goout.net/en/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/szmvamy/",
-   "date": "2026-10-09"
+   "date": "2026-10-09",
+   "sp": {
+    "Blocksberg": "1Dxz2fxZ3fzJiPlo6tQN6U",
+    "Memphys": "7AalWAOWz4NUwYiRlPyMoT"
+   }
   },
   {
    "id": "deathchant",
@@ -126,7 +133,10 @@
    "lineup": "Deathchant (USA), Voodoo Garden + guests",
    "desc": "Heavy, fuzzed-out rock from Los Angeles live on the Cross Club stage. Same ticket gets you into Spirit Therapy afterwards.",
    "link": "https://goout.net/en/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/szmvamy/",
-   "date": "2026-10-09"
+   "date": "2026-10-09",
+   "sp": {
+    "Deathchant": "540GgzaR1X4qzfRbITNlcM"
+   }
   },
   {
    "id": "picotto",
@@ -155,7 +165,11 @@
    "lineup": "Mauro Picotto, Eddie Halliwell · EN-TRANCE",
    "desc": "Two trance legends on one bill. Picotto's 'Komodo' era meets Halliwell's high-energy sets. The biggest name draw of the weekend.",
    "link": "https://www.epicprague.com/en/program/2172/mauro-picotto-x-eddie-halliwell-en-trance",
-   "date": "2026-10-10"
+   "date": "2026-10-10",
+   "sp": {
+    "Mauro Picotto": "0MNSDAOCHF7f2ZfAYxZ9bp",
+    "Eddie Halliwell": "45A7XBuUTqH1KBFh3cZ4ZJ"
+   }
   },
   {
    "id": "acidarab",
@@ -179,7 +193,10 @@
    "lineup": "Acid Arab, Ghandi, Romario & Snowlion, Cejn, True Detective",
    "desc": "The Paris collective mixes techno and acid house with Middle Eastern and North African music. Hypnotic and very danceable, running until 7am.",
    "link": "https://goout.net/en/acid-arab/szxaymy/",
-   "date": "2026-10-10"
+   "date": "2026-10-10",
+   "sp": {
+    "Acid Arab": "67zhsgmxBwbdXTwL29WZK9"
+   }
   },
   {
    "id": "swimming",
@@ -203,7 +220,10 @@
    "lineup": "Swimming Paul",
    "desc": "Bouncy, euphoric house. Easy crowd-pleaser in a central club, perfect if you want a fun, dance-all-night Saturday.",
    "link": "https://goout.net/en/tickets/swimming-paul/rlinb/",
-   "date": "2026-10-10"
+   "date": "2026-10-10",
+   "sp": {
+    "Swimming Paul": "5rEwPEAHq2q1yW3wF4av5s"
+   }
   },
   {
    "id": "samurai",
@@ -227,7 +247,10 @@
    "lineup": "Samurai Breaks (UK), DJ Base (DE), MC Baddabap, mʊdʌki residents, Alyaz, Blofeld, Herss, Kazpa, Sofiqa",
    "desc": "Breaks, jungle and bass on an island in the middle of the Vltava. Fuchs2 is a former 80s disco turned alternative club, and the setting alone is worth the trip.",
    "link": "https://ra.co/events/2507042",
-   "date": "2026-10-10"
+   "date": "2026-10-10",
+   "sp": {
+    "Samurai Breaks": "5X8xxAPGx1ouTGDlgE5ray"
+   }
   },
   {
    "id": "camelphat",
@@ -251,7 +274,10 @@
    "lineup": "CamelPhat",
    "desc": "Grammy-nominated melodic house duo. The biggest club booking in Prague all month.",
    "link": "https://goout.net/en/tickets/camelphat-uk/bcwmb/",
-   "date": "2026-10-16"
+   "date": "2026-10-16",
+   "sp": {
+    "CamelPhat": "240wlM8vDrf6S4zCyzGj2W"
+   }
   },
   {
    "id": "crossfest",
@@ -277,7 +303,12 @@
    "lineup": "Zamilska, Takaaki Itoh, Strachkvas, Nocturnal Thing, Yuliya, Nova Regina · plus a drum & bass stage",
    "desc": "Cross Club's own festival night. Zamilska and Takaaki Itoh make this a serious techno lineup, with a second stage of drum & bass.",
    "link": "https://goout.net/en/zamilska-w-strachkvas-ida-elastic/szflxly/",
-   "date": "2026-10-16"
+   "date": "2026-10-16",
+   "sp": {
+    "Zamilska": "5spFDEIIv5V1yEHxIBStKH",
+    "Takaaki Itoh": "2cE64RtSkS5CE0075eMMCt",
+    "Strachkvas": "0SdyV2I7NhlsFX5VgHqwrK"
+   }
   },
   {
    "id": "notion",
@@ -296,7 +327,15 @@
    "artists": [
     "Notion"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "opsHKBTBApo",
+     "label": "Notion – Mixmag Lab London"
+    }
+   ],
+   "sp": {
+    "Notion": "1uRVM0wBdtyEuU582EeKJM"
+   }
   },
   {
    "id": "ankali-stars",
@@ -316,7 +355,12 @@
     "Sepehr",
     "Ella Pavel"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "I1-jdKq1OvA",
+     "label": "Sepehr (live) – Dekmantel 2025"
+    }
+   ]
   },
   {
    "id": "techno-alliance",
@@ -336,7 +380,12 @@
     "Sarah Sommers",
     "Lindsey Herbert"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "2Chbf8MhLxk",
+     "label": "Sarah Sommers (live) – HÖR"
+    }
+   ]
   },
   {
    "id": "gegen",
@@ -356,7 +405,12 @@
     "Cristian Marras",
     "Samantha Togni"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "VPuRxEk6zkQ",
+     "label": "Cristian Marras – GEGEN Berlin"
+    }
+   ]
   },
   {
    "id": "seismic",

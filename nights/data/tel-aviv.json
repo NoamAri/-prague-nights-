@@ -51,7 +51,10 @@
    "addr": "Tel Aviv Port",
    "lineup": "Adam Ten, Rafael, Hard to Tell, Ašk, Fly Effect, Dodi & Toni B, Ofeko",
    "desc": "Ten-hour open-air party at the port that starts in daylight and peaks at sunset. Adam Ten is one of Israel's biggest melodic house exports.",
-   "link": "https://www.eventer.co.il/event/yq42f/QMwYL"
+   "link": "https://www.eventer.co.il/event/yq42f/QMwYL",
+   "sp": {
+    "Adam Ten": "05tmGPn4fFdVpnsMt0YW5S"
+   }
   },
   {
    "id": "offgrid",
@@ -170,7 +173,10 @@
    "addr": "Moon Child, Hangar 23, Tel Aviv Port",
    "lineup": "Asher Swissa, Shidapu",
    "desc": "Open-air Friday at the port with two of Israel's most popular techno DJs. Techno and mainstream areas under the sky.",
-   "link": "https://go-out.co/event/1789125536346"
+   "link": "https://go-out.co/event/1789125536346",
+   "sp": {
+    "Asher Swissa": "4ZLrfqX4cxTrthF8AILMAM"
+   }
   },
   {
    "id": "bubbles",
@@ -195,7 +201,10 @@
    "addr": "Shalvata, Tel Aviv Port",
    "lineup": "Asher Swissa (special set), Omri., Lell'e B2B Dorè, Dannilo, Nahum",
    "desc": "Saturday night Sukkot special at the port's classic beach bar. Asher Swissa mixes psytrance, techno and house.",
-   "link": "https://www.eventer.co.il/event/26g2f/sDzYL"
+   "link": "https://www.eventer.co.il/event/26g2f/sDzYL",
+   "sp": {
+    "Asher Swissa": "4ZLrfqX4cxTrthF8AILMAM"
+   }
   },
   {
    "id": "azealia",
@@ -219,7 +228,10 @@
    "addr": "Amphi Tel Aviv, Ganei Yehoshua",
    "lineup": "Azealia Banks",
    "desc": "Live show from the rapper behind '212', who mixes hip-hop with club and house beats. Open-air amphitheater in the park.",
-   "link": "https://www.kupat.co.il/show/azealia-banks"
+   "link": "https://www.kupat.co.il/show/azealia-banks",
+   "sp": {
+    "Azealia Banks": "7gRhy3MIPHQo5CXYfWaw9I"
+   }
   },
   {
    "id": "freaks",
@@ -267,7 +279,10 @@
    "addr": "Moon Child, Hangar 23, Tel Aviv Port",
    "lineup": "Pettra + Kino Todo crew",
    "desc": "Nature-trance and ethnic electronic night in the open air at the port.",
-   "link": "https://go-out.co/event/1789124318268"
+   "link": "https://go-out.co/event/1789124318268",
+   "sp": {
+    "Pettra": "2qzM98SPNta8roSgqVfG7D"
+   }
   },
   {
    "id": "genish",
@@ -291,7 +306,10 @@
    "addr": "King George 48",
    "lineup": "Genish",
    "desc": "Middle Eastern and North African roots meet modern psychedelia in a new central club. Ticket holders guaranteed entry until 1:30.",
-   "link": "https://go-out.co/event/1790144808541"
+   "link": "https://go-out.co/event/1790144808541",
+   "sp": {
+    "Genish": "12rfpY7qPWCqM5kN8q1Ry1"
+   }
   },
   {
    "id": "bazaar",
@@ -312,7 +330,10 @@
    "lineup": "Genish, Maya Haviv, Maayan Rahamim, Mines, Noam Leshem, Noomi",
    "desc": "Seaside afternoon-into-evening party with a Burn-style market and art. Good daytime option, 16:00–23:00.",
    "link": "https://www.eventer.co.il/gb22f",
-   "vids": []
+   "vids": [],
+   "sp": {
+    "Genish": "12rfpY7qPWCqM5kN8q1Ry1"
+   }
   },
   {
    "id": "sander",
@@ -337,7 +358,10 @@
    "addr": "The Place Tel Aviv",
    "lineup": "Sander van Doorn (2-hour producer set), Yuval Zach & Alon Halperin, Oforia (retro trance close)",
    "desc": "The Dutch trance star plays the hits of 2000–2015 in an intimate 600-capacity room. One of the few international headliners this month.",
-   "link": "https://www.eventer.co.il/events/z6b2f"
+   "link": "https://www.eventer.co.il/events/z6b2f",
+   "sp": {
+    "Sander van Doorn": "22bukBZvUppuwQwmDz75Gz"
+   }
   },
   {
    "id": "colorful",
@@ -362,7 +386,10 @@
    "addr": "Gagarin Club",
    "lineup": "Pettra, Darwish",
    "desc": "Pettra and Darwish, two of the most popular nature-trance DJs in Israel, together at Gagarin until 6am.",
-   "link": "https://go-out.co/event/1789200735350"
+   "link": "https://go-out.co/event/1789200735350",
+   "sp": {
+    "Pettra": "2qzM98SPNta8roSgqVfG7D"
+   }
   },
   {
    "id": "shtuby",
@@ -387,7 +414,10 @@
    "addr": "Moon Child, Hangar 23, Tel Aviv Port",
    "lineup": "Shtuby, Club de Combat",
    "desc": "Hypnotic, psychedelic techno from a festival favourite, open air at the port.",
-   "link": "https://go-out.co/event/1789124589389"
+   "link": "https://go-out.co/event/1789124589389",
+   "sp": {
+    "Shtuby": "0zU0wVollyhKoZXe6znIBF"
+   }
   },
   {
    "id": "polishuk",
@@ -503,7 +533,10 @@
    "addr": "Moon Child, Hangar 23, Tel Aviv Port",
    "lineup": "Asher Swissa, Bliss",
    "desc": "Friday open air with techno and mainstream areas under the sky. Registration is required to get in before 23:30.",
-   "link": "https://go-out.co/event/1789124801362"
+   "link": "https://go-out.co/event/1789124801362",
+   "sp": {
+    "Asher Swissa": "4ZLrfqX4cxTrthF8AILMAM"
+   }
   }
  ],
  "slug": "tel-aviv",

@@ -55,7 +55,15 @@
    "artists": [
     "Joris Delacroix"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "OGM1QSzEBOc",
+     "label": "Joris Delacroix – live set, Paris"
+    }
+   ],
+   "sp": {
+    "Joris Delacroix": "3HRRzIZNQFus3xlUx2xKy1"
+   }
   },
   {
    "id": "damswindle",
@@ -74,7 +82,15 @@
    "artists": [
     "Dam Swindle"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "zhePaJDmlvA",
+     "label": "Dam Swindle – Happiness"
+    }
+   ],
+   "sp": {
+    "Dam Swindle": "6hJtgCB3L5cnJSND7sp6GU"
+   }
   },
   {
    "id": "erolalkan",
@@ -93,7 +109,15 @@
    "artists": [
     "Erol Alkan"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "8ViWXIo30Cw",
+     "label": "Erol Alkan – live from Bugged Out!"
+    }
+   ],
+   "sp": {
+    "Erol Alkan": "3jQ8hpdQo3TCEnb5gmOtH5"
+   }
   },
   {
    "id": "goddess",
@@ -129,7 +153,15 @@
    "artists": [
     "Busy P"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "bcfG6keFoN8",
+     "label": "Busy P – Ed Banger megaset"
+    }
+   ],
+   "sp": {
+    "Busy P": "3coXUO5EiwR37nzX4xWjIV"
+   }
   },
   {
    "id": "km25-2359",
@@ -165,7 +197,15 @@
    "artists": [
     "Apparat"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "F8tLQbajsfI",
+     "label": "Apparat – Heroist"
+    }
+   ],
+   "sp": {
+    "Apparat": "40Ojab0UtVQFjA76qXr8Ot"
+   }
   },
   {
    "id": "mamies",
@@ -184,7 +224,12 @@
    "artists": [
     "Mamie's"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "T_phVhvijlA",
+     "label": "La Mamie's – Rinse France DJ set"
+    }
+   ]
   },
   {
    "id": "samfeldt",
@@ -203,7 +248,15 @@
    "artists": [
     "Sam Feldt"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "AoHd5ShDvA0",
+     "label": "Sam Feldt – Show Me Love"
+    }
+   ],
+   "sp": {
+    "Sam Feldt": "20gsENnposVs2I4rQ5kvrf"
+   }
   },
   {
    "id": "oxyl",
@@ -256,7 +309,15 @@
    "artists": [
     "Autechre"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "zappj-P0-HE",
+     "label": "Autechre – Second Bad Vilbel"
+    }
+   ],
+   "sp": {
+    "Autechre": "6WH1V41LwGDGmlPUhSZLHO"
+   }
   }
  ],
  "slug": "paris",

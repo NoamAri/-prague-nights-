@@ -55,7 +55,12 @@
    "artists": [
     "DJ Plead"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "meMRD1bCP7g",
+     "label": "DJ Plead – Ride TV"
+    }
+   ]
   },
   {
    "id": "dusky",
@@ -74,7 +79,12 @@
    "artists": [
     "Dusky"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "Pop2HYv4kVY",
+     "label": "Dusky – Ingrid Is A Hybrid"
+    }
+   ]
   },
   {
    "id": "bookclub",
@@ -111,7 +121,15 @@
    "artists": [
     "DJ Minx"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "jLvfiuKgdic",
+     "label": "DJ Minx – Boiler Room Detroit"
+    }
+   ],
+   "sp": {
+    "DJ Minx": "4PTQtiKISN5iGNpbRVv02B"
+   }
   },
   {
    "id": "nocturne",
@@ -130,7 +148,12 @@
    "artists": [
     "Jordan Nocturne"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "xHRmeuPIH04",
+     "label": "Jordan Nocturne – Turn It Out"
+    }
+   ]
   },
   {
    "id": "ra25",
@@ -183,7 +206,15 @@
    "artists": [
     "Aluna"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "gHm4eKXw-AM",
+     "label": "Aluna – Beatport DJ set"
+    }
+   ],
+   "sp": {
+    "Aluna": "1pCkaAWxXw1pdDbdZzfidF"
+   }
   },
   {
    "id": "servito",
@@ -202,7 +233,15 @@
    "artists": [
     "Mike Servito"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "BqySytT0R2E",
+     "label": "Mike Servito – Boiler Room NYC"
+    }
+   ],
+   "sp": {
+    "Mike Servito": "05TQmeCxjfNBf1ZRDOMHq8"
+   }
   },
   {
    "id": "krivit",
@@ -221,7 +260,15 @@
    "artists": [
     "Danny Krivit"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "6zVI1EQrfoI",
+     "label": "Danny Krivit – 718 Sessions"
+    }
+   ],
+   "sp": {
+    "Danny Krivit": "0Y5z4slenWMoTz3sg8N6xD"
+   }
   }
  ],
  "slug": "new-york",

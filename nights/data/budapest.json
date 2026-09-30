@@ -33,7 +33,12 @@
     "Blockhead",
     "Proleter"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "NhheiPTdZCw",
+     "label": "Blockhead – The Music Scene"
+    }
+   ]
   },
   {
    "id": "kobosil",
@@ -52,7 +57,15 @@
    "artists": [
     "Kobosil"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "C93Fb4PC4fo",
+     "label": "Kobosil – Boiler Room Berlin"
+    }
+   ],
+   "sp": {
+    "Kobosil": "2ZvIFwl0BuQgHqWvDE80hC"
+   }
   },
   {
    "id": "pastor",
@@ -71,7 +84,15 @@
    "artists": [
     "Joachim Pastor"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "oEoo4bhdYsY",
+     "label": "Joachim Pastor – By Your Side"
+    }
+   ],
+   "sp": {
+    "Joachim Pastor": "6eNOjuJSfKkAvbiGW90AkZ"
+   }
   },
   {
    "id": "acidarab-bp",
@@ -95,7 +116,10 @@
      "id": "mpls1Mp4RFE",
      "label": "Acid Arab – Leila (official video)"
     }
-   ]
+   ],
+   "sp": {
+    "Acid Arab": "67zhsgmxBwbdXTwL29WZK9"
+   }
   },
   {
    "id": "barwood",
@@ -114,7 +138,12 @@
    "artists": [
     "Lloyd Barwood"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "RVQ3zb-_U0o",
+     "label": "Lloyd Barwood – sunset DJ mix"
+    }
+   ]
   },
   {
    "id": "autechre-bp",
@@ -133,7 +162,15 @@
    "artists": [
     "Autechre"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "zappj-P0-HE",
+     "label": "Autechre – Second Bad Vilbel"
+    }
+   ],
+   "sp": {
+    "Autechre": "6WH1V41LwGDGmlPUhSZLHO"
+   }
   },
   {
    "id": "lithium",
