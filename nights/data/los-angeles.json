@@ -87,7 +87,11 @@
      "id": "Hkgik4edDpY",
      "label": "Mala – Boiler Room London: Deep Medi"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Bass Arcade",
+    "id": "37i9dQZF1DX0hvSv9Rf41p"
+   }
   },
   {
    "id": "adid",
@@ -165,7 +169,11 @@
      "id": "06qcv7gASSE",
      "label": "Joe Kay – Soulection 15 anniversary set"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "sidepiece",
@@ -298,7 +306,11 @@
      "id": "iE6LnK17jYY",
      "label": "Mala – Changes (Deep Medi)"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Bass Arcade",
+    "id": "37i9dQZF1DX0hvSv9Rf41p"
+   }
   },
   {
    "id": "bartskils",

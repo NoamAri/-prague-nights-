@@ -75,7 +75,16 @@
    "lineup": "Bido, Braidy, Spacho & Lamor, Idan",
    "desc": "Weeknight beats in Tel Aviv's favourite art-bar courtyard. Relaxed crowd, free if you arrive early.",
    "link": "https://www.secrettelaviv.com/tickets/off-grid-kuli-alma-9",
-   "vids": []
+   "vids": [
+    {
+     "id": "Pvob1G3s31k",
+     "label": "A party night at Kuli Alma"
+    }
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "astrix",
@@ -101,7 +110,11 @@
    "addr": "Reading 3, Tel Aviv Port",
    "lineup": "Astrix, Dekel, Noam Leshem + special guests",
    "desc": "The biggest psytrance name in Israel headlines the Sukkot holiday night in the huge Reading 3 hall. Expect a packed, high-energy crowd.",
-   "link": "https://zygo.co.il/event/110800120815761434/zygo"
+   "link": "https://zygo.co.il/event/110800120815761434/zygo",
+   "spl": {
+    "name": "Psytrance 2026",
+    "id": "0iJEh2BsvSw8V3lDTkiUK7"
+   }
   },
   {
    "id": "decision",
@@ -127,7 +140,11 @@
    "addr": "Haoman 17, Abarbanel 88",
    "lineup": "Main: Out of Orbit, Rising Dust, Captain Hook, Atara, Danino + more · Garden: mainstream stage",
    "desc": "Two stages, two worlds: trance and techno in the main hall, mainstream in the garden. Runs until 7am.",
-   "link": "https://zygo.co.il/event/460890237507964709/zygo"
+   "link": "https://zygo.co.il/event/460890237507964709/zygo",
+   "spl": {
+    "name": "Psytrance 2026",
+    "id": "0iJEh2BsvSw8V3lDTkiUK7"
+   }
   },
   {
    "id": "fracture",
@@ -148,7 +165,16 @@
    "lineup": "A/Z, Gaya Carmel, Inei, Dambø, Ofek, Red Pill, Shøded · Cityboy for afters",
    "desc": "All-night underground rave from midnight to 8am. The pick if you want proper techno rather than a holiday festival.",
    "link": "https://selector.org.il/e/NV4S_zOC3F4",
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "swissa1",
@@ -255,7 +281,11 @@
    "addr": "Haoman 17, Abarbanel 88",
    "lineup": "Bobaz Lobster face-to-face sets 01:30–06:00 · after party 07:00–10:00",
    "desc": "The most colourful dance floor in town, with a new back-to-back format. Goes on until 10am.",
-   "link": "https://www.eventer.co.il/freaksss"
+   "link": "https://www.eventer.co.il/freaksss",
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "kinotodo",
@@ -330,7 +360,12 @@
    "lineup": "Genish, Maya Haviv, Maayan Rahamim, Mines, Noam Leshem, Noomi",
    "desc": "Seaside afternoon-into-evening party with a Burn-style market and art. Good daytime option, 16:00–23:00.",
    "link": "https://www.eventer.co.il/gb22f",
-   "vids": [],
+   "vids": [
+    {
+     "id": "e6aoizQGR9c",
+     "label": "Genish – live set"
+    }
+   ],
    "sp": {
     "Genish": "12rfpY7qPWCqM5kN8q1Ry1"
    }
@@ -442,7 +477,10 @@
    "addr": "Hangar 11, Tel Aviv Port",
    "lineup": "Evi Goffin (ex-Lasgo, live), DJ Adamski, Ella Gotman, Yahel, Eran Barnea",
    "desc": "90s and 2000s trance anthems with Lasgo's singer live. Ages 35 and up only.",
-   "link": "https://hangar11.co.il/events/event/polishuk-trance-party/"
+   "link": "https://hangar11.co.il/events/event/polishuk-trance-party/",
+   "sp": {
+    "Lasgo": "25Kw8f1zcn9VtUk5Nl3qrp"
+   }
   },
   {
    "id": "barby90s",
@@ -459,7 +497,16 @@
    "lineup": "Non-stop 90s hits and surprise performances",
    "desc": "Cheap, silly, fun 90s party at a classic live venue. Good for a group.",
    "link": "https://barby.co.il/show/5536",
-   "vids": []
+   "vids": [
+    {
+     "id": "BiZn4i92Z-Q",
+     "label": "90s dance megamix"
+    }
+   ],
+   "spl": {
+    "name": "90s Dance Party",
+    "id": "37i9dQZF1DX802IXCAaWtY"
+   }
   },
   {
    "id": "darwish",
@@ -483,7 +530,11 @@
    "addr": "Moon Child, Hangar 23, Tel Aviv Port",
    "lineup": "Darwish",
    "desc": "Friday open air with Darwish in the trance area and melodic techno in the second one. Register ahead for free early entry.",
-   "link": "https://go-out.co/event/1789124694055"
+   "link": "https://go-out.co/event/1789124694055",
+   "spl": {
+    "name": "Psytrance 2026",
+    "id": "0iJEh2BsvSw8V3lDTkiUK7"
+   }
   },
   {
    "id": "teva",
@@ -508,7 +559,10 @@
    "addr": "Amphi Tel Aviv, Ganei Yehoshua",
    "lineup": "Darwish, DJ Gura G · live guests Mosh Ben-Ari and Karolina",
    "desc": "End-of-summer open-air party in the park, with tribal beats and live singers. Early evening, 18+.",
-   "link": "https://www.goshow.co.il/show/21851/56767"
+   "link": "https://www.goshow.co.il/show/21851/56767",
+   "sp": {
+    "Mosh Ben Ari": "2xUDx9SBC0huIMC2ekMSvd"
+   }
   },
   {
    "id": "swissa2",

@@ -36,7 +36,16 @@
    "artists": [
     "Da Punks"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "djplead",
@@ -60,7 +69,11 @@
      "id": "meMRD1bCP7g",
      "label": "DJ Plead – Ride TV"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Bass Arcade",
+    "id": "37i9dQZF1DX0hvSv9Rf41p"
+   }
   },
   {
    "id": "dusky",
@@ -84,7 +97,11 @@
      "id": "Pop2HYv4kVY",
      "label": "Dusky – Ingrid Is A Hybrid"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "bookclub",
@@ -101,8 +118,17 @@
    "link": "https://shotgun.live/en/festivals/bookclubradiofest2",
    "price": "$59.99",
    "artists": [],
-   "vids": [],
-   "end": "2026-10-04"
+   "vids": [
+    {
+     "id": "42XFNGZrpaQ",
+     "label": "House taster: Chris Stussy, Boiler Room"
+    }
+   ],
+   "end": "2026-10-04",
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "djminx",
@@ -153,7 +179,11 @@
      "id": "xHRmeuPIH04",
      "label": "Jordan Nocturne – Turn It Out"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "ra25",
@@ -170,7 +200,16 @@
    "link": "https://ra.co/events/2497459",
    "price": "Not listed publicly · shown at checkout",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "berlinbeyond",
@@ -187,7 +226,16 @@
    "link": "https://shotgun.live/en/events/berlin-beyond-year3",
    "price": "Waiting list",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "aluna",

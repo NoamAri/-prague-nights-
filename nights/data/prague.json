@@ -78,7 +78,16 @@
    "desc": "UK bass and dubstep takeover in a converted soap factory. Ankali has one of the best sound systems in the city and a loyal underground crowd. Cheaper at the door before midnight.",
    "link": "https://ra.co/events/2530880",
    "date": "2026-10-09",
-   "vids": []
+   "vids": [
+    {
+     "id": "Hkgik4edDpY",
+     "label": "Dubstep taster: Mala, Boiler Room"
+    }
+   ],
+   "spl": {
+    "name": "Bass Arcade",
+    "id": "37i9dQZF1DX0hvSv9Rf41p"
+   }
   },
   {
    "id": "spirit",
@@ -360,7 +369,11 @@
      "id": "I1-jdKq1OvA",
      "label": "Sepehr (live) – Dekmantel 2025"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "techno-alliance",
@@ -385,7 +398,11 @@
      "id": "2Chbf8MhLxk",
      "label": "Sarah Sommers (live) – HÖR"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Hard Techno",
+    "id": "37i9dQZF1DWXCzcvFxzeno"
+   }
   },
   {
    "id": "gegen",
@@ -410,7 +427,11 @@
      "id": "VPuRxEk6zkQ",
      "label": "Cristian Marras – GEGEN Berlin"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "seismic",
@@ -430,7 +451,16 @@
     "Citty",
     "Garçon"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   }
  ],
  "slug": "prague",

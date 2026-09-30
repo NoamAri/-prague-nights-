@@ -36,7 +36,16 @@
    "artists": [
     "Onesh"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "joris",
@@ -134,7 +143,16 @@
    "link": "https://shotgun.live/events/godsss-rave-urumi-a5km-esilise-pauline-d7-kilometre25",
    "price": "From €9",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "EviUlS_GnWs",
+     "label": "Kilomètre25 resident set"
+    }
+   ],
+   "spl": {
+    "name": "Hard Techno",
+    "id": "37i9dQZF1DWXCzcvFxzeno"
+   }
   },
   {
    "id": "slsafter",
@@ -178,7 +196,16 @@
    "link": "https://shotgun.live/events/2359-eargasm-god-dbbd-paralich-area-one-kilometre25",
    "price": "From €8",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "bTMvSlizSYQ",
+     "label": "DJ set at Kilomètre25"
+    }
+   ],
+   "spl": {
+    "name": "Hard Techno",
+    "id": "37i9dQZF1DWXCzcvFxzeno"
+   }
   },
   {
    "id": "apparat",
@@ -229,7 +256,11 @@
      "id": "T_phVhvijlA",
      "label": "La Mamie's – Rinse France DJ set"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "samfeldt",
@@ -273,7 +304,16 @@
    "link": "https://shotgun.live/events/oxyl-18-km-25",
    "price": "From €8",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "EviUlS_GnWs",
+     "label": "Kilomètre25 resident set"
+    }
+   ],
+   "spl": {
+    "name": "Hard Techno",
+    "id": "37i9dQZF1DWXCzcvFxzeno"
+   }
   },
   {
    "id": "fluid",
@@ -290,7 +330,16 @@
    "link": "https://75.agendaculturel.fr/concert/fluid-x-swim-club-kim-swim-b2b-milion-bella-claxton-dr-g.html",
    "price": "€14–22",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "42XFNGZrpaQ",
+     "label": "House taster: Chris Stussy, Boiler Room"
+    }
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "autechre",

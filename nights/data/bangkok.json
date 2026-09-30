@@ -26,7 +26,16 @@
    "link": "https://bangkok-nights.com/event/bar-temp-foerderband-x-dy-0f5ts6",
    "price": "~฿300–700",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "42XFNGZrpaQ",
+     "label": "House taster: Chris Stussy, Boiler Room"
+    }
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "lush",
@@ -43,7 +52,16 @@
    "link": "https://bangkok-nights.com/event/bar-temp-lush-division-76adm8",
    "price": "~฿300–700",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "42XFNGZrpaQ",
+     "label": "House taster: Chris Stussy, Boiler Room"
+    }
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "feed",
@@ -60,7 +78,16 @@
    "link": "https://bangkok-nights.com/event/horn-feed-s3gfeh",
    "price": "฿400–900",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "moji",
@@ -79,7 +106,16 @@
    "artists": [
     "Moji"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "TpOQ2c8TssY",
+     "label": "Hard techno mix recorded at Subwerk"
+    }
+   ],
+   "spl": {
+    "name": "Hard Techno",
+    "id": "37i9dQZF1DWXCzcvFxzeno"
+   }
   },
   {
    "id": "xiorro",
@@ -98,7 +134,16 @@
    "artists": [
     "Xiorro"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "delirium",
@@ -115,7 +160,16 @@
    "link": "https://bangkok-nights.com/event/elsewhere-delirium-031mvo",
    "price": "฿400–600",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "42XFNGZrpaQ",
+     "label": "House taster: Chris Stussy, Boiler Room"
+    }
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "highwire",
@@ -139,7 +193,11 @@
      "id": "lDhLMswKwhM",
      "label": "DMT Disco – Durian Radio"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "psybkk",
@@ -156,7 +214,16 @@
    "link": "https://bangkok-nights.com/event/subwerk-3-0-psy-trance-bangkok-7xtwmu",
    "price": "฿300–500",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "w0Mxy71R51w",
+     "label": "Inside Subwerk, Bangkok"
+    }
+   ],
+   "spl": {
+    "name": "Psytrance 2026",
+    "id": "0iJEh2BsvSw8V3lDTkiUK7"
+   }
   },
   {
    "id": "camphorn",
@@ -173,7 +240,16 @@
    "link": "https://bangkok-nights.com/event/horn-camp-horn-lqrkjx",
    "price": "฿400–900",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "DGWL7YI_2rI",
+     "label": "Techno taster: Ben Klock, Boiler Room Berlin"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "afrorave",
@@ -190,7 +266,16 @@
    "link": "https://bangkok-nights.com/event/bar-temp-afrorave-and-friends-bar-temp-takeover-gandg0",
    "price": "~฿300–700",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "9JtTbx-hYWk",
+     "label": "Afro house taster: Black Coffee, Boiler Room"
+    }
+   ],
+   "spl": {
+    "name": "Afro House Pulse",
+    "id": "37i9dQZF1DX5wO3czN5dc1"
+   }
   }
  ],
  "slug": "bangkok",

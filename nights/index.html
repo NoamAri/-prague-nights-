@@ -296,7 +296,9 @@ function artistChips(ev){
     return id
       ? `<a class="sp spapp" href="spotify:artist:${id}" data-web="https://open.spotify.com/artist/${id}">${SPOT}${esc(a)}</a>`
       : `<a class="sp" href="${yt(a)}" target="_blank" rel="noopener">${YTI}${esc(a)}</a>`;
-  }).join("");
+  }).join("") + (ev.spl
+    ? `<a class="sp spapp" href="spotify:playlist:${ev.spl.id}" data-web="https://open.spotify.com/playlist/${ev.spl.id}">${SPOT}Playlist: ${esc(ev.spl.name)}</a>`
+    : "");
 }
 function card(ev){
   const g = GENRES[ev.genre] || GENRES["Club night"];

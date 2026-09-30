@@ -68,7 +68,11 @@
      "id": "AWZ5F00eG_k",
      "label": "Yung Singh – Boiler Room Melbourne"
     }
-   ]
+   ],
+   "spl": {
+    "name": "New UK Garage",
+    "id": "37i9dQZF1DX6MNYaY0PcFh"
+   }
   },
   {
    "id": "maxcooper",
@@ -93,7 +97,10 @@
      "id": "Kpm1l0HfkV0",
      "label": "Max Cooper – Resynthesis"
     }
-   ]
+   ],
+   "sp": {
+    "DVS1": "2xrOogbM0l6NzOSp4zZ3IP"
+   }
   },
   {
    "id": "bushbaby",
@@ -164,7 +171,16 @@
    "link": "https://www.fabriclondon.com/event/caya-by-fabric-way-out---bradii-savio-testa-verso-kesia-olimus-b2b-maurillexx",
    "price": "Not listed publicly · shown at checkout",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "GUdqwJYOYsw",
+     "label": "Live in fabric Room One"
+    }
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "drumsheds-edm",
@@ -216,7 +232,11 @@
      "id": "MfQnbHgdDaQ",
      "label": "Faster Horses – Mixmag Lab London"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "locklead",
@@ -268,7 +288,11 @@
      "id": "osS2zsW8mLk",
      "label": "KiNK – Boiler Room live set"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "youngmarco",

@@ -38,7 +38,11 @@
      "id": "NhheiPTdZCw",
      "label": "Blockhead – The Music Scene"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "kobosil",
@@ -143,7 +147,11 @@
      "id": "RVQ3zb-_U0o",
      "label": "Lloyd Barwood – sunset DJ mix"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Best New Melodic House & Techno",
+    "id": "15IEm4WquzW48cFgtb7Ym7"
+   }
   },
   {
    "id": "autechre-bp",
@@ -187,7 +195,16 @@
    "link": "https://akvariumklub.hu/en/events/lithium-night-10-szulinapi-gigaparty/",
    "price": "Not listed publicly · shown at checkout",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "fAMP0MBfGhY",
+     "label": "Indie-dance taster: Friendly Fires"
+    }
+   ],
+   "spl": {
+    "name": "Indie Party",
+    "id": "37i9dQZF1DWTujiC7wfofZ"
+   }
   }
  ],
  "slug": "budapest",

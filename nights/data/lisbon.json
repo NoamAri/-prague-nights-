@@ -30,24 +30,42 @@
    "link": "https://shotgun.live/en/events/room-wednesdays-curated-by-carpet-club-83",
    "price": "€5",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "42XFNGZrpaQ",
+     "label": "House taster: Chris Stussy, Boiler Room"
+    }
+   ],
+   "spl": {
+    "name": "Housewerk",
+    "id": "37i9dQZF1DXa8NOEUWPn9W"
+   }
   },
   {
    "id": "mothership",
    "date": "2026-09-30",
    "time": "23:59",
    "title": "Mothership",
-   "genre": "Club night",
+   "genre": "Psytrance",
    "score": 3.4,
    "venue": "Lisboa Rio Club",
    "area": "Lisbon",
    "addr": "Lisboa Rio Club",
    "lineup": "Mothership residents",
-   "desc": "Late Wednesday party by the river.",
+   "desc": "Long-running psytrance party by the river, with international guests like Mad Tribe in past editions.",
    "link": "https://shotgun.live/en/events/mothership-30-sep",
    "price": "€10",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "b5FzCQWSekQ",
+     "label": "Mad Tribe live in Portugal (a past Mothership guest)"
+    }
+   ],
+   "spl": {
+    "name": "Psytrance 2026",
+    "id": "0iJEh2BsvSw8V3lDTkiUK7"
+   }
   },
   {
    "id": "satya",
@@ -92,7 +110,16 @@
    "link": "https://shotgun.live/en/events/riktus-invites-hard-bock-drauf",
    "price": "€10",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "8EFpfqlpQJM",
+     "label": "Hard Bock Drauf party, Frankfurt"
+    }
+   ],
+   "spl": {
+    "name": "Hard Techno",
+    "id": "37i9dQZF1DWXCzcvFxzeno"
+   }
   },
   {
    "id": "dvrksun",
@@ -111,7 +138,16 @@
    "artists": [
     "Fantasm"
    ],
-   "vids": []
+   "vids": [
+    {
+     "id": "NQNn7HGfMSk",
+     "label": "Fantasm – 2-hour hard techno set"
+    }
+   ],
+   "spl": {
+    "name": "Hard Techno",
+    "id": "37i9dQZF1DWXCzcvFxzeno"
+   }
   },
   {
    "id": "armana",
@@ -135,7 +171,11 @@
      "id": "PR7uSEB1hN4",
      "label": "Armana Khan – global club set"
     }
-   ]
+   ],
+   "spl": {
+    "name": "Techno Bunker",
+    "id": "37i9dQZF1DX6J5NfMJS675"
+   }
   },
   {
    "id": "tuim",
@@ -152,7 +192,16 @@
    "link": "https://shotgun.live/en/events/baile-do-tuim-batendo-bolo-2-0-bateu-cresceu",
    "price": "€12",
    "artists": [],
-   "vids": []
+   "vids": [
+    {
+     "id": "5md3JGa-nJY",
+     "label": "Baile funk taster"
+    }
+   ],
+   "spl": {
+    "name": "Baile Funk Radio",
+    "id": "37i9dQZF1E4xkcAJ2c2Z1Y"
+   }
   }
  ],
  "slug": "lisbon",
